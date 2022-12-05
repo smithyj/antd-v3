@@ -169,10 +169,10 @@
     transition: all 0.3s;
 
     // Reset Select's style in addon
-    .@{ant-prefix}-select {
+    .@{antd-v3-prefix}-select {
       margin: -(@input-padding-vertical-base + 1px) (-@input-padding-horizontal-base);
 
-      .@{ant-prefix}-select-selection {
+      .@{antd-v3-prefix}-select-selection {
         margin: -1px;
         background-color: inherit;
         border: @border-width-base @border-style-base transparent;
@@ -181,14 +181,14 @@
 
       &-open,
       &-focused {
-        .@{ant-prefix}-select-selection {
+        .@{antd-v3-prefix}-select-selection {
           color: @primary-color;
         }
       }
     }
 
     // Expand addon icon click area
-    // https://github.com/ant-design/ant-design/issues/3714
+    // https://github.com/antd-v3-design/antd-v3-design/issues/3714
     > i:only-child::after {
       position: absolute;
       top: 0;
@@ -206,7 +206,7 @@
     border-bottom-right-radius: 0;
 
     // Reset Select's style in addon
-    .@{ant-prefix}-select .@{ant-prefix}-select-selection {
+    .@{antd-v3-prefix}-select .@{antd-v3-prefix}-select-selection {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
     }
@@ -238,7 +238,7 @@
     border-bottom-left-radius: 0;
 
     // Reset Select's style in addon
-    .@{ant-prefix}-select .@{ant-prefix}-select-selection {
+    .@{antd-v3-prefix}-select .@{antd-v3-prefix}-select-selection {
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
     }
@@ -255,12 +255,12 @@
     .input-sm();
   }
 
-  // Fix https://github.com/ant-design/ant-design/issues/5754
-  &-lg .@{ant-prefix}-select-selection--single {
+  // Fix https://github.com/antd-v3-design/antd-v3-design/issues/5754
+  &-lg .@{antd-v3-prefix}-select-selection--single {
     height: @input-height-lg;
   }
 
-  &-sm .@{ant-prefix}-select-selection--single {
+  &-sm .@{antd-v3-prefix}-select-selection--single {
     height: @input-height-sm;
   }
 
@@ -293,7 +293,7 @@
     & > * {
       display: inline-block;
       float: none;
-      vertical-align: top; // https://github.com/ant-design/ant-design-pro/issues/139
+      vertical-align: top; // https://github.com/antd-v3-design/antd-v3-design-pro/issues/139
       border-radius: 0;
     }
 
@@ -302,19 +302,19 @@
       border-right-width: @border-width-base;
     }
 
-    // Undo float for .ant-input-group .ant-input
+    // Undo float for .antd-v3-input-group .antd-v3-input
     .@{inputClass} {
       float: none;
     }
 
     // reset border for Select, DatePicker, AutoComplete, Cascader, Mention, TimePicker, Input
-    & > .@{ant-prefix}-select > .@{ant-prefix}-select-selection,
-    & > .@{ant-prefix}-calendar-picker .@{ant-prefix}-input,
-    & > .@{ant-prefix}-select-auto-complete .@{ant-prefix}-input,
-    & > .@{ant-prefix}-cascader-picker .@{ant-prefix}-input,
-    & > .@{ant-prefix}-mention-wrapper .@{ant-prefix}-mention-editor,
-    & > .@{ant-prefix}-time-picker .@{ant-prefix}-time-picker-input,
-    & > .@{ant-prefix}-input-group-wrapper .@{ant-prefix}-input {
+    & > .@{antd-v3-prefix}-select > .@{antd-v3-prefix}-select-selection,
+    & > .@{antd-v3-prefix}-calendar-picker .@{antd-v3-prefix}-input,
+    & > .@{antd-v3-prefix}-select-auto-complete .@{antd-v3-prefix}-input,
+    & > .@{antd-v3-prefix}-cascader-picker .@{antd-v3-prefix}-input,
+    & > .@{antd-v3-prefix}-mention-wrapper .@{antd-v3-prefix}-mention-editor,
+    & > .@{antd-v3-prefix}-time-picker .@{antd-v3-prefix}-time-picker-input,
+    & > .@{antd-v3-prefix}-input-group-wrapper .@{antd-v3-prefix}-input {
       border-right-width: @border-width-base;
       border-radius: 0;
 
@@ -328,31 +328,31 @@
     }
 
     & > *:first-child,
-    & > .@{ant-prefix}-select:first-child > .@{ant-prefix}-select-selection,
-    & > .@{ant-prefix}-calendar-picker:first-child .@{ant-prefix}-input,
-    & > .@{ant-prefix}-select-auto-complete:first-child .@{ant-prefix}-input,
-    & > .@{ant-prefix}-cascader-picker:first-child .@{ant-prefix}-input,
-    & > .@{ant-prefix}-mention-wrapper:first-child .@{ant-prefix}-mention-editor,
-    & > .@{ant-prefix}-time-picker:first-child .@{ant-prefix}-time-picker-input {
+    & > .@{antd-v3-prefix}-select:first-child > .@{antd-v3-prefix}-select-selection,
+    & > .@{antd-v3-prefix}-calendar-picker:first-child .@{antd-v3-prefix}-input,
+    & > .@{antd-v3-prefix}-select-auto-complete:first-child .@{antd-v3-prefix}-input,
+    & > .@{antd-v3-prefix}-cascader-picker:first-child .@{antd-v3-prefix}-input,
+    & > .@{antd-v3-prefix}-mention-wrapper:first-child .@{antd-v3-prefix}-mention-editor,
+    & > .@{antd-v3-prefix}-time-picker:first-child .@{antd-v3-prefix}-time-picker-input {
       border-top-left-radius: @border-radius-base;
       border-bottom-left-radius: @border-radius-base;
     }
 
     & > *:last-child,
-    & > .@{ant-prefix}-select:last-child > .@{ant-prefix}-select-selection,
-    & > .@{ant-prefix}-calendar-picker:last-child .@{ant-prefix}-input,
-    & > .@{ant-prefix}-select-auto-complete:last-child .@{ant-prefix}-input,
-    & > .@{ant-prefix}-cascader-picker:last-child .@{ant-prefix}-input,
-    & > .@{ant-prefix}-cascader-picker-focused:last-child .@{ant-prefix}-input,
-    & > .@{ant-prefix}-mention-wrapper:last-child .@{ant-prefix}-mention-editor,
-    & > .@{ant-prefix}-time-picker:last-child .@{ant-prefix}-time-picker-input {
+    & > .@{antd-v3-prefix}-select:last-child > .@{antd-v3-prefix}-select-selection,
+    & > .@{antd-v3-prefix}-calendar-picker:last-child .@{antd-v3-prefix}-input,
+    & > .@{antd-v3-prefix}-select-auto-complete:last-child .@{antd-v3-prefix}-input,
+    & > .@{antd-v3-prefix}-cascader-picker:last-child .@{antd-v3-prefix}-input,
+    & > .@{antd-v3-prefix}-cascader-picker-focused:last-child .@{antd-v3-prefix}-input,
+    & > .@{antd-v3-prefix}-mention-wrapper:last-child .@{antd-v3-prefix}-mention-editor,
+    & > .@{antd-v3-prefix}-time-picker:last-child .@{antd-v3-prefix}-time-picker-input {
       border-right-width: @border-width-base;
       border-top-right-radius: @border-radius-base;
       border-bottom-right-radius: @border-radius-base;
     }
 
-    // https://github.com/ant-design/ant-design/issues/12493
-    & > .@{ant-prefix}-select-auto-complete .@{ant-prefix}-input {
+    // https://github.com/antd-v3-design/antd-v3-design/issues/12493
+    & > .@{antd-v3-prefix}-select-auto-complete .@{antd-v3-prefix}-input {
       vertical-align: top;
     }
   }
@@ -374,9 +374,9 @@
   }
 
   // Should not break align of icon & text
-  // https://github.com/ant-design/ant-design/issues/18087
-  // https://github.com/ant-design/ant-design/issues/17414
-  // https://github.com/ant-design/ant-design/pull/17684
+  // https://github.com/antd-v3-design/antd-v3-design/issues/18087
+  // https://github.com/antd-v3-design/antd-v3-design/issues/17414
+  // https://github.com/antd-v3-design/antd-v3-design/pull/17684
   // https://codesandbox.io/embed/pensive-paper-di2wk
   // https://codesandbox.io/embed/nifty-benz-gb7ml
   .@{inputClass}-prefix,
@@ -430,7 +430,7 @@
 .clear-icon() {
   color: @disabled-color;
   font-size: @font-size-sm;
-  // https://github.com/ant-design/ant-design/pull/18151
+  // https://github.com/antd-v3-design/antd-v3-design/pull/18151
   // https://codesandbox.io/s/wizardly-sun-u10br
   cursor: pointer;
   transition: color 0.3s;

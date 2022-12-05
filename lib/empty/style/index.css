@@ -2,40 +2,40 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-empty {
+.antd-v3-empty {
   margin: 0 8px;
   font-size: 14px;
   line-height: 22px;
   text-align: center;
 }
-.ant-empty-image {
+.antd-v3-empty-image {
   height: 100px;
   margin-bottom: 8px;
 }
-.ant-empty-image img {
+.antd-v3-empty-image img {
   height: 100%;
 }
-.ant-empty-image svg {
+.antd-v3-empty-image svg {
   height: 100%;
   margin: auto;
 }
-.ant-empty-description {
+.antd-v3-empty-description {
   margin: 0;
 }
-.ant-empty-footer {
+.antd-v3-empty-footer {
   margin-top: 16px;
 }
-.ant-empty-normal {
+.antd-v3-empty-normal {
   margin: 32px 0;
   color: rgba(0, 0, 0, 0.25);
 }
-.ant-empty-normal .ant-empty-image {
+.antd-v3-empty-normal .antd-v3-empty-image {
   height: 40px;
 }
-.ant-empty-small {
+.antd-v3-empty-small {
   margin: 8px 0;
   color: rgba(0, 0, 0, 0.25);
 }
-.ant-empty-small .ant-empty-image {
+.antd-v3-empty-small .antd-v3-empty-image {
   height: 35px;
 }

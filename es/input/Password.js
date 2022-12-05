@@ -97,7 +97,7 @@ var Password = /*#__PURE__*/function (_React$Component) {
       var iconTrigger = ActionMap[action] || '';
       var iconProps = (_iconProps = {}, _defineProperty(_iconProps, iconTrigger, this.onVisibleChange), _defineProperty(_iconProps, "className", "".concat(prefixCls, "-icon")), _defineProperty(_iconProps, "type", this.state.visible ? 'eye' : 'eye-invisible'), _defineProperty(_iconProps, "key", 'passwordIcon'), _defineProperty(_iconProps, "onMouseDown", function onMouseDown(e) {
         // Prevent focused state lost
-        // https://github.com/ant-design/ant-design/issues/15173
+        // https://github.com/antd-v3-design/antd-v3-design/issues/15173
         e.preventDefault();
       }), _iconProps);
       return /*#__PURE__*/React.createElement(Icon, iconProps);
@@ -146,8 +146,8 @@ var Password = /*#__PURE__*/function (_React$Component) {
 
 export { Password as default };
 Password.defaultProps = {
-  inputPrefixCls: 'ant-input',
-  prefixCls: 'ant-input-password',
+  inputPrefixCls: 'antd-v3-input',
+  prefixCls: 'antd-v3-input-password',
   action: 'click',
   visibilityToggle: true
 };

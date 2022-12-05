@@ -191,7 +191,7 @@ var DirectoryTree = /*#__PURE__*/function (_React$Component) {
 
 
       var internalTree = _this.tree.tree; // Call internal rc-tree expand function
-      // https://github.com/ant-design/ant-design/issues/12567
+      // https://github.com/antd-v3-design/antd-v3-design/issues/12567
 
       internalTree.onNodeExpand(event, node);
     };

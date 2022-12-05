@@ -56,7 +56,7 @@ var AutoComplete = /*#__PURE__*/function (_React$Component) {
       var children = _this.props.children;
       var element = children && /*#__PURE__*/React.isValidElement(children) && children.type !== Option ? React.Children.only(_this.props.children) : /*#__PURE__*/React.createElement(Input, null);
 
-      var elementProps = _extends({}, element.props); // https://github.com/ant-design/ant-design/pull/7742
+      var elementProps = _extends({}, element.props); // https://github.com/antd-v3-design/antd-v3-design/pull/7742
 
 
       delete elementProps.children;

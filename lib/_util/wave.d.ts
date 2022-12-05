@@ -15,7 +15,7 @@ export default class Wave extends React.Component<{
     onClick: (node: HTMLElement, waveColor: string) => void;
     onTransitionStart: (e: AnimationEvent) => void;
     onTransitionEnd: (e: AnimationEvent) => void;
-    getAttributeName(): "ant-click-animating" | "ant-click-animating-without-extra-node";
+    getAttributeName(): "antd-v3-click-animating" | "antd-v3-click-animating-without-extra-node";
     bindAnimationEvent: (node: HTMLElement) => {
         cancel: () => void;
     } | undefined;

@@ -13,7 +13,7 @@ export interface CommentProps {
     content: React.ReactNode;
     /** Nested comments should be provided as children of the Comment */
     children?: React.ReactNode;
-    /** Comment prefix defaults to '.ant-comment' */
+    /** Comment prefix defaults to '.antd-v3-comment' */
     prefixCls?: string;
     /** Additional style for the comment */
     style?: React.CSSProperties;

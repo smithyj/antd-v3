@@ -1,7 +1,7 @@
 @import '../../style/themes/index';
 @import '../../style/mixins/index';
 
-@full-calendar-prefix-cls: ~'@{ant-prefix}-fullcalendar';
+@full-calendar-prefix-cls: ~'@{antd-v3-prefix}-fullcalendar';
 
 .@{full-calendar-prefix-cls} {
   .reset-component;
@@ -9,19 +9,19 @@
   border-top: @border-width-base @border-style-base @border-color-base;
   outline: none;
 
-  .@{ant-prefix}-select&-year-select {
+  .@{antd-v3-prefix}-select&-year-select {
     min-width: 90px;
 
-    &.@{ant-prefix}-select-sm {
+    &.@{antd-v3-prefix}-select-sm {
       min-width: 70px;
     }
   }
 
-  .@{ant-prefix}-select&-month-select {
+  .@{antd-v3-prefix}-select&-month-select {
     min-width: 80px;
     margin-left: 8px;
 
-    &.@{ant-prefix}-select-sm {
+    &.@{antd-v3-prefix}-select-sm {
       min-width: 70px;
     }
   }
@@ -30,16 +30,16 @@
     padding: 11px 16px 11px 0;
     text-align: right;
 
-    .@{ant-prefix}-select-dropdown {
+    .@{antd-v3-prefix}-select-dropdown {
       text-align: left;
     }
 
-    .@{ant-prefix}-radio-group {
+    .@{antd-v3-prefix}-radio-group {
       margin-left: 8px;
       text-align: left;
     }
 
-    label.@{ant-prefix}-radio-button {
+    label.@{antd-v3-prefix}-radio-button {
       height: 22px;
       padding: 0 10px;
       line-height: 20px;
@@ -176,10 +176,10 @@
   }
 
   &-fullscreen &-header {
-    .@{ant-prefix}-radio-group {
+    .@{antd-v3-prefix}-radio-group {
       margin-left: 16px;
     }
-    label.@{ant-prefix}-radio-button {
+    label.@{antd-v3-prefix}-radio-button {
       height: @input-height-base;
       line-height: @input-height-base - 2px;
     }

@@ -2,7 +2,7 @@
 @import '../../style/mixins/index';
 @import '../../input/style/mixin';
 
-@select-prefix-cls: ~'@{ant-prefix}-select';
+@select-prefix-cls: ~'@{antd-v3-prefix}-select';
 
 .selection__clear() {
   position: absolute;
@@ -165,7 +165,7 @@
     margin-right: @control-padding-horizontal - 1px;
     margin-left: @control-padding-horizontal - 1px;
     line-height: @input-height-base - 2px;
-    // https://github.com/ant-design/ant-design/issues/3481#issuecomment-254721026
+    // https://github.com/antd-v3-design/antd-v3-design/issues/3481#issuecomment-254721026
     &::after {
       display: inline-block;
       width: 0;
@@ -437,8 +437,8 @@
   box-sizing: border-box;
   font-size: @font-size-base;
   // Fix select render lag of long text in chrome
-  // https://github.com/ant-design/ant-design/issues/11456
-  // https://github.com/ant-design/ant-design/issues/11843
+  // https://github.com/antd-v3-design/antd-v3-design/issues/11456
+  // https://github.com/antd-v3-design/antd-v3-design/issues/11843
   font-variant: initial;
   background-color: @select-dropdown-bg;
   border-radius: @border-radius-base;
@@ -590,7 +590,7 @@
   }
 
   // Patch for popup adjust
-  // https://github.com/ant-design/ant-design/issues/14422
+  // https://github.com/antd-v3-design/antd-v3-design/issues/14422
   &--empty&--multiple &-menu-item {
     padding-right: @control-padding-horizontal;
   }

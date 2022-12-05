@@ -71,7 +71,7 @@ var Wave = /*#__PURE__*/function (_React$Component) {
       var _assertThisInitialize = _assertThisInitialized(_this),
           extraNode = _assertThisInitialize.extraNode;
 
-      extraNode.className = 'ant-click-animating-node';
+      extraNode.className = 'antd-v3-click-animating-node';
 
       var attributeName = _this.getAttributeName();
 
@@ -87,7 +87,7 @@ var Wave = /*#__PURE__*/function (_React$Component) {
         }
 
         extraNode.style.borderColor = waveColor;
-        styleForPesudo.innerHTML = "\n      [ant-click-animating-without-extra-node='true']::after, .ant-click-animating-node {\n        --antd-wave-shadow-color: ".concat(waveColor, ";\n      }");
+        styleForPesudo.innerHTML = "\n      [antd-v3-click-animating-without-extra-node='true']::after, .antd-v3-click-animating-node {\n        --antd-wave-shadow-color: ".concat(waveColor, ";\n      }");
 
         if (!document.body.contains(styleForPesudo)) {
           document.body.appendChild(styleForPesudo);
@@ -196,7 +196,7 @@ var Wave = /*#__PURE__*/function (_React$Component) {
     key: "getAttributeName",
     value: function getAttributeName() {
       var insertExtraNode = this.props.insertExtraNode;
-      return insertExtraNode ? 'ant-click-animating' : 'ant-click-animating-without-extra-node';
+      return insertExtraNode ? 'antd-v3-click-animating' : 'antd-v3-click-animating-without-extra-node';
     }
   }, {
     key: "resetEffect",

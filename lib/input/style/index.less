@@ -3,35 +3,35 @@
 @import './mixin';
 
 // Input styles
-.@{ant-prefix}-input {
+.@{antd-v3-prefix}-input {
   .reset-component;
   .input;
 }
 
 //== Style for input-group: input with label, with button or dropdown...
-.@{ant-prefix}-input-group {
+.@{antd-v3-prefix}-input-group {
   .reset-component;
-  .input-group(~'@{ant-prefix}-input');
+  .input-group(~'@{antd-v3-prefix}-input');
   &-wrapper {
     display: inline-block;
     width: 100%;
     text-align: start;
-    vertical-align: top; // https://github.com/ant-design/ant-design/issues/6403
+    vertical-align: top; // https://github.com/antd-v3-design/antd-v3-design/issues/6403
   }
 }
 
 // Input with affix: prefix or suffix
-.@{ant-prefix}-input-affix-wrapper {
+.@{antd-v3-prefix}-input-affix-wrapper {
   .reset-component;
-  .input-affix-wrapper(~'@{ant-prefix}-input');
+  .input-affix-wrapper(~'@{antd-v3-prefix}-input');
 
-  // https://github.com/ant-design/ant-design/issues/6144
-  .@{ant-prefix}-input {
+  // https://github.com/antd-v3-design/antd-v3-design/issues/6144
+  .@{antd-v3-prefix}-input {
     min-height: 100%; // use min-height, assume that no smaller height to override
   }
 }
 
-.@{ant-prefix}-input-password-icon {
+.@{antd-v3-prefix}-input-password-icon {
   color: @text-color-secondary;
   cursor: pointer;
   transition: all 0.3s;
@@ -41,12 +41,12 @@
   }
 }
 
-.@{ant-prefix}-input-clear-icon {
+.@{antd-v3-prefix}-input-clear-icon {
   .clear-icon;
   vertical-align: 0;
 }
 
-.@{ant-prefix}-input-textarea-clear-icon {
+.@{antd-v3-prefix}-input-textarea-clear-icon {
   .clear-icon;
   position: absolute;
   top: 0;

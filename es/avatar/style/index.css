@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-avatar {
+.antd-v3-avatar {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -27,55 +27,55 @@
   line-height: 32px;
   border-radius: 50%;
 }
-.ant-avatar-image {
+.antd-v3-avatar-image {
   background: transparent;
 }
-.ant-avatar-string {
+.antd-v3-avatar-string {
   position: absolute;
   left: 50%;
   -webkit-transform-origin: 0 center;
       -ms-transform-origin: 0 center;
           transform-origin: 0 center;
 }
-.ant-avatar.ant-avatar-icon {
+.antd-v3-avatar.antd-v3-avatar-icon {
   font-size: 18px;
 }
-.ant-avatar-lg {
+.antd-v3-avatar-lg {
   width: 40px;
   height: 40px;
   line-height: 40px;
   border-radius: 50%;
 }
-.ant-avatar-lg-string {
+.antd-v3-avatar-lg-string {
   position: absolute;
   left: 50%;
   -webkit-transform-origin: 0 center;
       -ms-transform-origin: 0 center;
           transform-origin: 0 center;
 }
-.ant-avatar-lg.ant-avatar-icon {
+.antd-v3-avatar-lg.antd-v3-avatar-icon {
   font-size: 24px;
 }
-.ant-avatar-sm {
+.antd-v3-avatar-sm {
   width: 24px;
   height: 24px;
   line-height: 24px;
   border-radius: 50%;
 }
-.ant-avatar-sm-string {
+.antd-v3-avatar-sm-string {
   position: absolute;
   left: 50%;
   -webkit-transform-origin: 0 center;
       -ms-transform-origin: 0 center;
           transform-origin: 0 center;
 }
-.ant-avatar-sm.ant-avatar-icon {
+.antd-v3-avatar-sm.antd-v3-avatar-icon {
   font-size: 14px;
 }
-.ant-avatar-square {
+.antd-v3-avatar-square {
   border-radius: 4px;
 }
-.ant-avatar > img {
+.antd-v3-avatar > img {
   display: block;
   width: 100%;
   height: 100%;

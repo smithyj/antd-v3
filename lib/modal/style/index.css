@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-modal {
+.antd-v3-modal {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -21,7 +21,7 @@
   padding-bottom: 24px;
   pointer-events: none;
 }
-.ant-modal-wrap {
+.antd-v3-modal-wrap {
   position: fixed;
   top: 0;
   right: 0;
@@ -32,7 +32,7 @@
   outline: 0;
   -webkit-overflow-scrolling: touch;
 }
-.ant-modal-title {
+.antd-v3-modal-title {
   margin: 0;
   color: rgba(0, 0, 0, 0.85);
   font-weight: 500;
@@ -40,7 +40,7 @@
   line-height: 22px;
   word-wrap: break-word;
 }
-.ant-modal-content {
+.antd-v3-modal-content {
   position: relative;
   background-color: #fff;
   background-clip: padding-box;
@@ -50,7 +50,7 @@
           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   pointer-events: auto;
 }
-.ant-modal-close {
+.antd-v3-modal-close {
   position: absolute;
   top: 0;
   right: 0;
@@ -67,7 +67,7 @@
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
-.ant-modal-close-x {
+.antd-v3-modal-close-x {
   display: block;
   width: 56px;
   height: 56px;
@@ -78,37 +78,37 @@
   text-transform: none;
   text-rendering: auto;
 }
-.ant-modal-close:focus,
-.ant-modal-close:hover {
+.antd-v3-modal-close:focus,
+.antd-v3-modal-close:hover {
   color: rgba(0, 0, 0, 0.75);
   text-decoration: none;
 }
-.ant-modal-header {
+.antd-v3-modal-header {
   padding: 16px 24px;
   color: rgba(0, 0, 0, 0.65);
   background: #fff;
   border-bottom: 1px solid #e8e8e8;
   border-radius: 4px 4px 0 0;
 }
-.ant-modal-body {
+.antd-v3-modal-body {
   padding: 24px;
   font-size: 14px;
   line-height: 1.5;
   word-wrap: break-word;
 }
-.ant-modal-footer {
+.antd-v3-modal-footer {
   padding: 10px 16px;
   text-align: right;
   background: transparent;
   border-top: 1px solid #e8e8e8;
   border-radius: 0 0 4px 4px;
 }
-.ant-modal-footer button + button {
+.antd-v3-modal-footer button + button {
   margin-bottom: 0;
   margin-left: 8px;
 }
-.ant-modal.zoom-enter,
-.ant-modal.zoom-appear {
+.antd-v3-modal.zoom-enter,
+.antd-v3-modal.zoom-appear {
   -webkit-transform: none;
       -ms-transform: none;
           transform: none;
@@ -120,7 +120,7 @@
       -ms-user-select: none;
           user-select: none;
 }
-.ant-modal-mask {
+.antd-v3-modal-mask {
   position: fixed;
   top: 0;
   right: 0;
@@ -131,60 +131,60 @@
   background-color: rgba(0, 0, 0, 0.45);
   filter: alpha(opacity=50);
 }
-.ant-modal-mask-hidden {
+.antd-v3-modal-mask-hidden {
   display: none;
 }
-.ant-modal-open {
+.antd-v3-modal-open {
   overflow: hidden;
 }
-.ant-modal-centered {
+.antd-v3-modal-centered {
   text-align: center;
 }
-.ant-modal-centered::before {
+.antd-v3-modal-centered::before {
   display: inline-block;
   width: 0;
   height: 100%;
   vertical-align: middle;
   content: '';
 }
-.ant-modal-centered .ant-modal {
+.antd-v3-modal-centered .antd-v3-modal {
   top: 0;
   display: inline-block;
   text-align: left;
   vertical-align: middle;
 }
 @media (max-width: 767px) {
-  .ant-modal {
+  .antd-v3-modal {
     max-width: calc(100vw - 16px);
     margin: 8px auto;
   }
-  .ant-modal-centered .ant-modal {
+  .antd-v3-modal-centered .antd-v3-modal {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
   }
 }
-.ant-modal-confirm .ant-modal-header {
+.antd-v3-modal-confirm .antd-v3-modal-header {
   display: none;
 }
-.ant-modal-confirm .ant-modal-close {
+.antd-v3-modal-confirm .antd-v3-modal-close {
   display: none;
 }
-.ant-modal-confirm .ant-modal-body {
+.antd-v3-modal-confirm .antd-v3-modal-body {
   padding: 32px 32px 24px;
 }
-.ant-modal-confirm-body-wrapper {
+.antd-v3-modal-confirm-body-wrapper {
   zoom: 1;
 }
-.ant-modal-confirm-body-wrapper::before,
-.ant-modal-confirm-body-wrapper::after {
+.antd-v3-modal-confirm-body-wrapper::before,
+.antd-v3-modal-confirm-body-wrapper::after {
   display: table;
   content: '';
 }
-.ant-modal-confirm-body-wrapper::after {
+.antd-v3-modal-confirm-body-wrapper::after {
   clear: both;
 }
-.ant-modal-confirm-body .ant-modal-confirm-title {
+.antd-v3-modal-confirm-body .antd-v3-modal-confirm-title {
   display: block;
   overflow: hidden;
   color: rgba(0, 0, 0, 0.85);
@@ -192,37 +192,37 @@
   font-size: 16px;
   line-height: 1.4;
 }
-.ant-modal-confirm-body .ant-modal-confirm-content {
+.antd-v3-modal-confirm-body .antd-v3-modal-confirm-content {
   margin-top: 8px;
   color: rgba(0, 0, 0, 0.65);
   font-size: 14px;
 }
-.ant-modal-confirm-body > .anticon {
+.antd-v3-modal-confirm-body > .anticon {
   float: left;
   margin-right: 16px;
   font-size: 22px;
 }
-.ant-modal-confirm-body > .anticon + .ant-modal-confirm-title + .ant-modal-confirm-content {
+.antd-v3-modal-confirm-body > .anticon + .antd-v3-modal-confirm-title + .antd-v3-modal-confirm-content {
   margin-left: 38px;
 }
-.ant-modal-confirm .ant-modal-confirm-btns {
+.antd-v3-modal-confirm .antd-v3-modal-confirm-btns {
   float: right;
   margin-top: 24px;
 }
-.ant-modal-confirm .ant-modal-confirm-btns button + button {
+.antd-v3-modal-confirm .antd-v3-modal-confirm-btns button + button {
   margin-bottom: 0;
   margin-left: 8px;
 }
-.ant-modal-confirm-error .ant-modal-confirm-body > .anticon {
+.antd-v3-modal-confirm-error .antd-v3-modal-confirm-body > .anticon {
   color: #f5222d;
 }
-.ant-modal-confirm-warning .ant-modal-confirm-body > .anticon,
-.ant-modal-confirm-confirm .ant-modal-confirm-body > .anticon {
+.antd-v3-modal-confirm-warning .antd-v3-modal-confirm-body > .anticon,
+.antd-v3-modal-confirm-confirm .antd-v3-modal-confirm-body > .anticon {
   color: #faad14;
 }
-.ant-modal-confirm-info .ant-modal-confirm-body > .anticon {
+.antd-v3-modal-confirm-info .antd-v3-modal-confirm-body > .anticon {
   color: #1890ff;
 }
-.ant-modal-confirm-success .ant-modal-confirm-body > .anticon {
+.antd-v3-modal-confirm-success .antd-v3-modal-confirm-body > .anticon {
   color: #52c41a;
 }

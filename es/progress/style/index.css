@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-progress {
+.antd-v3-progress {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -16,26 +16,26 @@
           font-feature-settings: 'tnum';
   display: inline-block;
 }
-.ant-progress-line {
+.antd-v3-progress-line {
   position: relative;
   width: 100%;
   font-size: 14px;
 }
-.ant-progress-small.ant-progress-line,
-.ant-progress-small.ant-progress-line .ant-progress-text .anticon {
+.antd-v3-progress-small.antd-v3-progress-line,
+.antd-v3-progress-small.antd-v3-progress-line .antd-v3-progress-text .anticon {
   font-size: 12px;
 }
-.ant-progress-outer {
+.antd-v3-progress-outer {
   display: inline-block;
   width: 100%;
   margin-right: 0;
   padding-right: 0;
 }
-.ant-progress-show-info .ant-progress-outer {
+.antd-v3-progress-show-info .antd-v3-progress-outer {
   margin-right: calc(-2em - 8px);
   padding-right: calc(2em + 8px);
 }
-.ant-progress-inner {
+.antd-v3-progress-inner {
   position: relative;
   display: inline-block;
   width: 100%;
@@ -44,31 +44,31 @@
   background-color: #f5f5f5;
   border-radius: 100px;
 }
-.ant-progress-circle-trail {
+.antd-v3-progress-circle-trail {
   stroke: #f5f5f5;
 }
-.ant-progress-circle-path {
-  -webkit-animation: ant-progress-appear 0.3s;
-          animation: ant-progress-appear 0.3s;
+.antd-v3-progress-circle-path {
+  -webkit-animation: antd-v3-progress-appear 0.3s;
+          animation: antd-v3-progress-appear 0.3s;
 }
-.ant-progress-inner:not(.ant-progress-circle-gradient) .ant-progress-circle-path {
+.antd-v3-progress-inner:not(.antd-v3-progress-circle-gradient) .antd-v3-progress-circle-path {
   stroke: #1890ff;
 }
-.ant-progress-success-bg,
-.ant-progress-bg {
+.antd-v3-progress-success-bg,
+.antd-v3-progress-bg {
   position: relative;
   background-color: #1890ff;
   border-radius: 100px;
   -webkit-transition: all 0.4s cubic-bezier(0.08, 0.82, 0.17, 1) 0s;
   transition: all 0.4s cubic-bezier(0.08, 0.82, 0.17, 1) 0s;
 }
-.ant-progress-success-bg {
+.antd-v3-progress-success-bg {
   position: absolute;
   top: 0;
   left: 0;
   background-color: #52c41a;
 }
-.ant-progress-text {
+.antd-v3-progress-text {
   display: inline-block;
   width: 2em;
   margin-left: 8px;
@@ -80,10 +80,10 @@
   vertical-align: middle;
   word-break: normal;
 }
-.ant-progress-text .anticon {
+.antd-v3-progress-text .anticon {
   font-size: 14px;
 }
-.ant-progress-status-active .ant-progress-bg::before {
+.antd-v3-progress-status-active .antd-v3-progress-bg::before {
   position: absolute;
   top: 0;
   right: 0;
@@ -92,34 +92,34 @@
   background: #fff;
   border-radius: 10px;
   opacity: 0;
-  -webkit-animation: ant-progress-active 2.4s cubic-bezier(0.23, 1, 0.32, 1) infinite;
-          animation: ant-progress-active 2.4s cubic-bezier(0.23, 1, 0.32, 1) infinite;
+  -webkit-animation: antd-v3-progress-active 2.4s cubic-bezier(0.23, 1, 0.32, 1) infinite;
+          animation: antd-v3-progress-active 2.4s cubic-bezier(0.23, 1, 0.32, 1) infinite;
   content: '';
 }
-.ant-progress-status-exception .ant-progress-bg {
+.antd-v3-progress-status-exception .antd-v3-progress-bg {
   background-color: #f5222d;
 }
-.ant-progress-status-exception .ant-progress-text {
+.antd-v3-progress-status-exception .antd-v3-progress-text {
   color: #f5222d;
 }
-.ant-progress-status-exception .ant-progress-inner:not(.ant-progress-circle-gradient) .ant-progress-circle-path {
+.antd-v3-progress-status-exception .antd-v3-progress-inner:not(.antd-v3-progress-circle-gradient) .antd-v3-progress-circle-path {
   stroke: #f5222d;
 }
-.ant-progress-status-success .ant-progress-bg {
+.antd-v3-progress-status-success .antd-v3-progress-bg {
   background-color: #52c41a;
 }
-.ant-progress-status-success .ant-progress-text {
+.antd-v3-progress-status-success .antd-v3-progress-text {
   color: #52c41a;
 }
-.ant-progress-status-success .ant-progress-inner:not(.ant-progress-circle-gradient) .ant-progress-circle-path {
+.antd-v3-progress-status-success .antd-v3-progress-inner:not(.antd-v3-progress-circle-gradient) .antd-v3-progress-circle-path {
   stroke: #52c41a;
 }
-.ant-progress-circle .ant-progress-inner {
+.antd-v3-progress-circle .antd-v3-progress-inner {
   position: relative;
   line-height: 1;
   background-color: transparent;
 }
-.ant-progress-circle .ant-progress-text {
+.antd-v3-progress-circle .antd-v3-progress-text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -134,16 +134,16 @@
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
-.ant-progress-circle .ant-progress-text .anticon {
+.antd-v3-progress-circle .antd-v3-progress-text .anticon {
   font-size: 1.16666667em;
 }
-.ant-progress-circle.ant-progress-status-exception .ant-progress-text {
+.antd-v3-progress-circle.antd-v3-progress-status-exception .antd-v3-progress-text {
   color: #f5222d;
 }
-.ant-progress-circle.ant-progress-status-success .ant-progress-text {
+.antd-v3-progress-circle.antd-v3-progress-status-success .antd-v3-progress-text {
   color: #52c41a;
 }
-@-webkit-keyframes ant-progress-active {
+@-webkit-keyframes antd-v3-progress-active {
   0% {
     width: 0;
     opacity: 0.1;
@@ -157,7 +157,7 @@
     opacity: 0;
   }
 }
-@keyframes ant-progress-active {
+@keyframes antd-v3-progress-active {
   0% {
     width: 0;
     opacity: 0.1;

@@ -1,7 +1,7 @@
 @import '../../style/themes/index';
 @import '../../style/mixins/index';
 
-.@{ant-prefix}-carousel {
+.@{antd-v3-prefix}-carousel {
   .reset-component;
 
   .slick-slider {
@@ -31,17 +31,17 @@
     .slick-slide {
       pointer-events: none;
 
-      // https://github.com/ant-design/ant-design/issues/23294
-      input.@{ant-prefix}-radio-input,
-      input.@{ant-prefix}-checkbox-input {
+      // https://github.com/antd-v3-design/antd-v3-design/issues/23294
+      input.@{antd-v3-prefix}-radio-input,
+      input.@{antd-v3-prefix}-checkbox-input {
         visibility: hidden;
       }
 
       &.slick-active {
         pointer-events: auto;
 
-        input.@{ant-prefix}-radio-input,
-        input.@{ant-prefix}-checkbox-input {
+        input.@{antd-v3-prefix}-radio-input,
+        input.@{antd-v3-prefix}-checkbox-input {
           visibility: visible;
         }
       }
@@ -209,7 +209,7 @@
   }
 }
 
-.@{ant-prefix}-carousel-vertical {
+.@{antd-v3-prefix}-carousel-vertical {
   .slick-dots {
     top: 50%;
     bottom: auto;

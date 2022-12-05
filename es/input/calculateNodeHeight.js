@@ -44,7 +44,7 @@ export default function calculateNodeHeight(uiTextNode) {
     hiddenTextarea = document.createElement('textarea');
     document.body.appendChild(hiddenTextarea);
   } // Fix wrap="off" issue
-  // https://github.com/ant-design/ant-design/issues/6577
+  // https://github.com/antd-v3-design/antd-v3-design/issues/6577
 
 
   if (uiTextNode.getAttribute('wrap')) {

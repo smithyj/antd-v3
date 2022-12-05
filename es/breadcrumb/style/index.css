@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-breadcrumb {
+.antd-v3-breadcrumb {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -16,33 +16,33 @@
   color: rgba(0, 0, 0, 0.45);
   font-size: 14px;
 }
-.ant-breadcrumb .anticon {
+.antd-v3-breadcrumb .anticon {
   font-size: 14px;
 }
-.ant-breadcrumb a {
+.antd-v3-breadcrumb a {
   color: rgba(0, 0, 0, 0.45);
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
-.ant-breadcrumb a:hover {
+.antd-v3-breadcrumb a:hover {
   color: #40a9ff;
 }
-.ant-breadcrumb > span:last-child {
+.antd-v3-breadcrumb > span:last-child {
   color: rgba(0, 0, 0, 0.65);
 }
-.ant-breadcrumb > span:last-child a {
+.antd-v3-breadcrumb > span:last-child a {
   color: rgba(0, 0, 0, 0.65);
 }
-.ant-breadcrumb > span:last-child .ant-breadcrumb-separator {
+.antd-v3-breadcrumb > span:last-child .antd-v3-breadcrumb-separator {
   display: none;
 }
-.ant-breadcrumb-separator {
+.antd-v3-breadcrumb-separator {
   margin: 0 8px;
   color: rgba(0, 0, 0, 0.45);
 }
-.ant-breadcrumb-link > .anticon + span {
+.antd-v3-breadcrumb-link > .anticon + span {
   margin-left: 4px;
 }
-.ant-breadcrumb-overlay-link > .anticon {
+.antd-v3-breadcrumb-overlay-link > .anticon {
   margin-left: 4px;
 }

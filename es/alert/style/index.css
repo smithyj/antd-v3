@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-alert {
+.antd-v3-alert {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -19,51 +19,51 @@
   word-wrap: break-word;
   border-radius: 4px;
 }
-.ant-alert.ant-alert-no-icon {
+.antd-v3-alert.antd-v3-alert-no-icon {
   padding: 8px 15px;
 }
-.ant-alert.ant-alert-closable {
+.antd-v3-alert.antd-v3-alert-closable {
   padding-right: 30px;
 }
-.ant-alert-icon {
+.antd-v3-alert-icon {
   position: absolute;
   top: 11.5px;
   left: 16px;
 }
-.ant-alert-description {
+.antd-v3-alert-description {
   display: none;
   font-size: 14px;
   line-height: 22px;
 }
-.ant-alert-success {
+.antd-v3-alert-success {
   background-color: #f6ffed;
   border: 1px solid #b7eb8f;
 }
-.ant-alert-success .ant-alert-icon {
+.antd-v3-alert-success .antd-v3-alert-icon {
   color: #52c41a;
 }
-.ant-alert-info {
+.antd-v3-alert-info {
   background-color: #e6f7ff;
   border: 1px solid #91d5ff;
 }
-.ant-alert-info .ant-alert-icon {
+.antd-v3-alert-info .antd-v3-alert-icon {
   color: #1890ff;
 }
-.ant-alert-warning {
+.antd-v3-alert-warning {
   background-color: #fffbe6;
   border: 1px solid #ffe58f;
 }
-.ant-alert-warning .ant-alert-icon {
+.antd-v3-alert-warning .antd-v3-alert-icon {
   color: #faad14;
 }
-.ant-alert-error {
+.antd-v3-alert-error {
   background-color: #fff1f0;
   border: 1px solid #ffa39e;
 }
-.ant-alert-error .ant-alert-icon {
+.antd-v3-alert-error .antd-v3-alert-icon {
   color: #f5222d;
 }
-.ant-alert-close-icon {
+.antd-v3-alert-close-icon {
   position: absolute;
   top: 8px;
   right: 16px;
@@ -76,58 +76,58 @@
   outline: none;
   cursor: pointer;
 }
-.ant-alert-close-icon .anticon-close {
+.antd-v3-alert-close-icon .anticon-close {
   color: rgba(0, 0, 0, 0.45);
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
-.ant-alert-close-icon .anticon-close:hover {
+.antd-v3-alert-close-icon .anticon-close:hover {
   color: rgba(0, 0, 0, 0.75);
 }
-.ant-alert-close-text {
+.antd-v3-alert-close-text {
   color: rgba(0, 0, 0, 0.45);
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
-.ant-alert-close-text:hover {
+.antd-v3-alert-close-text:hover {
   color: rgba(0, 0, 0, 0.75);
 }
-.ant-alert-with-description {
+.antd-v3-alert-with-description {
   position: relative;
   padding: 15px 15px 15px 64px;
   color: rgba(0, 0, 0, 0.65);
   line-height: 1.5;
   border-radius: 4px;
 }
-.ant-alert-with-description.ant-alert-no-icon {
+.antd-v3-alert-with-description.antd-v3-alert-no-icon {
   padding: 15px;
 }
-.ant-alert-with-description .ant-alert-icon {
+.antd-v3-alert-with-description .antd-v3-alert-icon {
   position: absolute;
   top: 16px;
   left: 24px;
   font-size: 24px;
 }
-.ant-alert-with-description .ant-alert-close-icon {
+.antd-v3-alert-with-description .antd-v3-alert-close-icon {
   position: absolute;
   top: 16px;
   right: 16px;
   font-size: 14px;
   cursor: pointer;
 }
-.ant-alert-with-description .ant-alert-message {
+.antd-v3-alert-with-description .antd-v3-alert-message {
   display: block;
   margin-bottom: 4px;
   color: rgba(0, 0, 0, 0.85);
   font-size: 16px;
 }
-.ant-alert-message {
+.antd-v3-alert-message {
   color: rgba(0, 0, 0, 0.85);
 }
-.ant-alert-with-description .ant-alert-description {
+.antd-v3-alert-with-description .antd-v3-alert-description {
   display: block;
 }
-.ant-alert.ant-alert-closing {
+.antd-v3-alert.antd-v3-alert-closing {
   height: 0 !important;
   margin: 0;
   padding-top: 0;
@@ -138,13 +138,13 @@
   -webkit-transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
   transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
 }
-.ant-alert-slide-up-leave {
+.antd-v3-alert-slide-up-leave {
   -webkit-animation: antAlertSlideUpOut 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
           animation: antAlertSlideUpOut 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
-.ant-alert-banner {
+.antd-v3-alert-banner {
   margin-bottom: 0;
   border: 0;
   border-radius: 0;

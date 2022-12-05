@@ -2,7 +2,7 @@
 @import '../../style/mixins/index';
 @import '../../input/style/mixin';
 
-@timepicker-prefix-cls: ~'@{ant-prefix}-time-picker';
+@timepicker-prefix-cls: ~'@{antd-v3-prefix}-time-picker';
 @timepicker-item-height: 32px;
 
 .@{timepicker-prefix-cls}-panel {
@@ -80,7 +80,7 @@
 
     ul {
       // use fixed width instead of 100%
-      // to fix strange render bug in safari: https://github.com/ant-design/ant-design/issues/17842
+      // to fix strange render bug in safari: https://github.com/antd-v3-design/antd-v3-design/issues/17842
       width: @time-picker-panel-column-width;
       margin: 0;
       padding: 0 0 @timepicker-item-height * 5;
@@ -239,7 +239,7 @@
 // https://browserstrangeness.github.io/css_hacks.html#safari
 @media not all and (min-resolution: 0.001dpcm) {
   @supports (-webkit-appearance: none) and (stroke-color: transparent) {
-    .@{ant-prefix}-input {
+    .@{antd-v3-prefix}-input {
       line-height: @line-height-base;
     }
   }

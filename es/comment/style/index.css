@@ -2,28 +2,28 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-comment {
+.antd-v3-comment {
   position: relative;
 }
-.ant-comment-inner {
+.antd-v3-comment-inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 16px 0;
 }
-.ant-comment-avatar {
+.antd-v3-comment-avatar {
   position: relative;
   -ms-flex-negative: 0;
       flex-shrink: 0;
   margin-right: 12px;
   cursor: pointer;
 }
-.ant-comment-avatar img {
+.antd-v3-comment-avatar img {
   width: 32px;
   height: 32px;
   border-radius: 50%;
 }
-.ant-comment-content {
+.antd-v3-comment-content {
   position: relative;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
@@ -32,7 +32,7 @@
   font-size: 14px;
   word-wrap: break-word;
 }
-.ant-comment-content-author {
+.antd-v3-comment-content-author {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,41 +44,41 @@
   margin-bottom: 4px;
   font-size: 14px;
 }
-.ant-comment-content-author > a,
-.ant-comment-content-author > span {
+.antd-v3-comment-content-author > a,
+.antd-v3-comment-content-author > span {
   padding-right: 8px;
   font-size: 12px;
   line-height: 18px;
 }
-.ant-comment-content-author-name {
+.antd-v3-comment-content-author-name {
   color: rgba(0, 0, 0, 0.45);
   font-size: 14px;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
-.ant-comment-content-author-name > * {
+.antd-v3-comment-content-author-name > * {
   color: rgba(0, 0, 0, 0.45);
 }
-.ant-comment-content-author-name > *:hover {
+.antd-v3-comment-content-author-name > *:hover {
   color: rgba(0, 0, 0, 0.45);
 }
-.ant-comment-content-author-time {
+.antd-v3-comment-content-author-time {
   color: #ccc;
   white-space: nowrap;
   cursor: auto;
 }
-.ant-comment-content-detail p {
+.antd-v3-comment-content-detail p {
   white-space: pre-wrap;
 }
-.ant-comment-actions {
+.antd-v3-comment-actions {
   margin-top: 12px;
   padding-left: 0;
 }
-.ant-comment-actions > li {
+.antd-v3-comment-actions > li {
   display: inline-block;
   color: rgba(0, 0, 0, 0.45);
 }
-.ant-comment-actions > li > span {
+.antd-v3-comment-actions > li > span {
   padding-right: 10px;
   color: rgba(0, 0, 0, 0.45);
   font-size: 12px;
@@ -90,9 +90,9 @@
       -ms-user-select: none;
           user-select: none;
 }
-.ant-comment-actions > li > span:hover {
+.antd-v3-comment-actions > li > span:hover {
   color: #595959;
 }
-.ant-comment-nested {
+.antd-v3-comment-nested {
   margin-left: 44px;
 }

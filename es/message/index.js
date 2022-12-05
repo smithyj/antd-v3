@@ -7,7 +7,7 @@ var defaultDuration = 3;
 var defaultTop;
 var messageInstance;
 var key = 1;
-var prefixCls = 'ant-message';
+var prefixCls = 'antd-v3-message';
 var transitionName = 'move-up';
 var getContainer;
 var maxCount;

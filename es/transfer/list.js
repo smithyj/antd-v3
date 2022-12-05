@@ -81,12 +81,12 @@ var TransferList = /*#__PURE__*/function (_React$Component) {
       if (!filterValue) {
         return;
       } // Manually trigger scroll event for lazy search bug
-      // https://github.com/ant-design/ant-design/issues/5631
+      // https://github.com/antd-v3-design/antd-v3-design/issues/5631
 
 
       _this.triggerScrollTimer = window.setTimeout(function () {
         var transferNode = ReactDOM.findDOMNode(_assertThisInitialized(_this));
-        var listNode = transferNode.querySelectorAll('.ant-transfer-list-content')[0];
+        var listNode = transferNode.querySelectorAll('.antd-v3-transfer-list-content')[0];
 
         if (listNode) {
           triggerEvent(listNode, 'scroll');

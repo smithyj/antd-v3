@@ -11,6 +11,6 @@ var locale = {
 }; // should add whitespace between char in Button
 
 locale.lang.ok = '确 定'; // All settings at:
-// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+// https://github.com/antd-v3-design/antd-v3-design/blob/master/components/date-picker/locale/example.json
 
 export default locale;

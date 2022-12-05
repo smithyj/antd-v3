@@ -84,10 +84,10 @@ function isSameColumn(a, b) {
   }
 
   return a === b || shallowEqual(a, b, function (value, other) {
-    // https://github.com/ant-design/ant-design/issues/12737
+    // https://github.com/antd-v3-design/antd-v3-design/issues/12737
     if (typeof value === 'function' && typeof other === 'function') {
       return value === other || value.toString() === other.toString();
-    } // https://github.com/ant-design/ant-design/issues/19398
+    } // https://github.com/antd-v3-design/antd-v3-design/issues/19398
 
 
     if (Array.isArray(value) && Array.isArray(other)) {
@@ -1276,7 +1276,7 @@ var Table = /*#__PURE__*/function (_React$Component) {
             selectedKeys: colFilters,
             confirmFilter: _this7.handleFilter,
             prefixCls: "".concat(prefixCls, "-filter"),
-            dropdownPrefixCls: dropdownPrefixCls || 'ant-dropdown',
+            dropdownPrefixCls: dropdownPrefixCls || 'antd-v3-dropdown',
             getPopupContainer: _this7.generatePopupContainerFunc(getPopupContainer),
             key: "filter-dropdown"
           });
@@ -1346,7 +1346,7 @@ var Table = /*#__PURE__*/function (_React$Component) {
       var _this$state4 = this.state,
           filters = _this$state4.filters,
           sortOrder = _this$state4.sortOrder,
-          sortColumn = _this$state4.sortColumn; // https://github.com/ant-design/ant-design/issues/11246#issuecomment-405009167
+          sortColumn = _this$state4.sortColumn; // https://github.com/antd-v3-design/antd-v3-design/issues/11246#issuecomment-405009167
 
       if (title instanceof Function) {
         return title({
@@ -1398,7 +1398,7 @@ var Table = /*#__PURE__*/function (_React$Component) {
         nextProps.store.setState({
           selectionDirty: false
         });
-      } // https://github.com/ant-design/ant-design/issues/10133
+      } // https://github.com/antd-v3-design/antd-v3-design/issues/10133
 
 
       nextProps.setCheckboxPropsCache({}); // Update filters

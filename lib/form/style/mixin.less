@@ -1,12 +1,12 @@
 @import '../../input/style/mixin';
 
 .form-control-validation(@text-color: @input-color; @border-color: @input-border-color; @background-color: @input-bg) {
-  .@{ant-prefix}-form-explain,
-  .@{ant-prefix}-form-split {
+  .@{antd-v3-prefix}-form-explain,
+  .@{antd-v3-prefix}-form-split {
     color: @text-color;
   }
   // 输入框的不同校验状态
-  .@{ant-prefix}-input {
+  .@{antd-v3-prefix}-input {
     &,
     &:hover {
       background-color: @background-color;
@@ -22,13 +22,13 @@
     }
   }
 
-  .@{ant-prefix}-calendar-picker-open .@{ant-prefix}-calendar-picker-input {
+  .@{antd-v3-prefix}-calendar-picker-open .@{antd-v3-prefix}-calendar-picker-input {
     .active(@border-color);
   }
 
   // Input prefix
-  .@{ant-prefix}-input-affix-wrapper {
-    .@{ant-prefix}-input {
+  .@{antd-v3-prefix}-input-affix-wrapper {
+    .@{antd-v3-prefix}-input {
       &,
       &:hover {
         background-color: @background-color;
@@ -40,16 +40,16 @@
       }
     }
 
-    &:hover .@{ant-prefix}-input:not(.@{ant-prefix}-input-disabled) {
+    &:hover .@{antd-v3-prefix}-input:not(.@{antd-v3-prefix}-input-disabled) {
       border-color: @border-color;
     }
   }
 
-  .@{ant-prefix}-input-prefix {
+  .@{antd-v3-prefix}-input-prefix {
     color: @text-color;
   }
 
-  .@{ant-prefix}-input-group-addon {
+  .@{antd-v3-prefix}-input-group-addon {
     color: @text-color;
     background-color: @background-color;
     border-color: @border-color;

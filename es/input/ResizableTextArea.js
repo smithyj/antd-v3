@@ -92,7 +92,7 @@ var ResizableTextArea = /*#__PURE__*/function (_React$Component) {
           resizing = _this$state.resizing;
       warning(autosize === undefined, 'Input.TextArea', 'autosize is deprecated, please use autoSize instead.');
       var otherProps = omit(_this.props, ['prefixCls', 'onPressEnter', 'autoSize', 'autosize', 'defaultValue', 'allowClear']);
-      var cls = classNames(prefixCls, className, _defineProperty({}, "".concat(prefixCls, "-disabled"), disabled)); // Fix https://github.com/ant-design/ant-design/issues/6776
+      var cls = classNames(prefixCls, className, _defineProperty({}, "".concat(prefixCls, "-disabled"), disabled)); // Fix https://github.com/antd-v3-design/antd-v3-design/issues/6776
       // Make sure it could be reset when using form.getFieldDecorator
 
       if ('value' in otherProps) {
@@ -139,7 +139,7 @@ var ResizableTextArea = /*#__PURE__*/function (_React$Component) {
     value: function componentWillUnmount() {
       raf.cancel(this.nextFrameActionId);
       raf.cancel(this.resizeFrameId);
-    } // https://github.com/ant-design/ant-design/issues/21870
+    } // https://github.com/antd-v3-design/antd-v3-design/issues/21870
 
   }, {
     key: "fixFirefoxAutoScroll",

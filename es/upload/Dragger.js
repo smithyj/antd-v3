@@ -37,7 +37,7 @@ var __rest = this && this.__rest || function (s, e) {
 
 import * as React from 'react';
 import Upload from './Upload'; // stick class comoponent to avoid React ref warning inside Form
-// https://github.com/ant-design/ant-design/issues/18707
+// https://github.com/antd-v3-design/antd-v3-design/issues/18707
 // eslint-disable-next-line react/prefer-stateless-function
 
 var Dragger = /*#__PURE__*/function (_React$Component) {

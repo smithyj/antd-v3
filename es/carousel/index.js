@@ -37,14 +37,14 @@ if (typeof window !== 'undefined') {
       addListener: function addListener() {},
       removeListener: function removeListener() {}
     };
-  }; // ref: https://github.com/ant-design/ant-design/issues/18774
+  }; // ref: https://github.com/antd-v3-design/antd-v3-design/issues/18774
 
 
   if (!window.matchMedia) window.matchMedia = matchMediaPolyfill;
 } // Use require over import (will be lifted up)
 // make sure matchMedia polyfill run before require('react-slick')
-// Fix https://github.com/ant-design/ant-design/issues/6560
-// Fix https://github.com/ant-design/ant-design/issues/3308
+// Fix https://github.com/antd-v3-design/antd-v3-design/issues/6560
+// Fix https://github.com/antd-v3-design/antd-v3-design/issues/3308
 
 
 var SlickCarousel = require('react-slick')["default"];
@@ -66,7 +66,7 @@ var Carousel = /*#__PURE__*/function (_React$Component) {
     };
 
     _this.onWindowResized = function () {
-      // Fix https://github.com/ant-design/ant-design/issues/2550
+      // Fix https://github.com/antd-v3-design/antd-v3-design/issues/2550
       var autoplay = _this.props.autoplay;
 
       if (autoplay && _this.slick && _this.slick.innerSlider && _this.slick.innerSlider.autoPlay) {
@@ -120,7 +120,7 @@ var Carousel = /*#__PURE__*/function (_React$Component) {
 
       if (autoplay) {
         window.addEventListener('resize', this.onWindowResized);
-      } // https://github.com/ant-design/ant-design/issues/7191
+      } // https://github.com/antd-v3-design/antd-v3-design/issues/7191
 
 
       this.innerSlider = this.slick && this.slick.innerSlider;

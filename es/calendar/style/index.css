@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-fullcalendar {
+.antd-v3-fullcalendar {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -17,81 +17,81 @@
   border-top: 1px solid #d9d9d9;
   outline: none;
 }
-.ant-select.ant-fullcalendar-year-select {
+.antd-v3-select.antd-v3-fullcalendar-year-select {
   min-width: 90px;
 }
-.ant-select.ant-fullcalendar-year-select.ant-select-sm {
+.antd-v3-select.antd-v3-fullcalendar-year-select.antd-v3-select-sm {
   min-width: 70px;
 }
-.ant-select.ant-fullcalendar-month-select {
+.antd-v3-select.antd-v3-fullcalendar-month-select {
   min-width: 80px;
   margin-left: 8px;
 }
-.ant-select.ant-fullcalendar-month-select.ant-select-sm {
+.antd-v3-select.antd-v3-fullcalendar-month-select.antd-v3-select-sm {
   min-width: 70px;
 }
-.ant-fullcalendar-header {
+.antd-v3-fullcalendar-header {
   padding: 11px 16px 11px 0;
   text-align: right;
 }
-.ant-fullcalendar-header .ant-select-dropdown {
+.antd-v3-fullcalendar-header .antd-v3-select-dropdown {
   text-align: left;
 }
-.ant-fullcalendar-header .ant-radio-group {
+.antd-v3-fullcalendar-header .antd-v3-radio-group {
   margin-left: 8px;
   text-align: left;
 }
-.ant-fullcalendar-header label.ant-radio-button {
+.antd-v3-fullcalendar-header label.antd-v3-radio-button {
   height: 22px;
   padding: 0 10px;
   line-height: 20px;
 }
-.ant-fullcalendar-date-panel {
+.antd-v3-fullcalendar-date-panel {
   position: relative;
   outline: none;
 }
-.ant-fullcalendar-calendar-body {
+.antd-v3-fullcalendar-calendar-body {
   padding: 8px 12px;
 }
-.ant-fullcalendar table {
+.antd-v3-fullcalendar table {
   width: 100%;
   max-width: 100%;
   height: 256px;
   background-color: transparent;
   border-collapse: collapse;
 }
-.ant-fullcalendar table,
-.ant-fullcalendar th,
-.ant-fullcalendar td {
+.antd-v3-fullcalendar table,
+.antd-v3-fullcalendar th,
+.antd-v3-fullcalendar td {
   border: 0;
 }
-.ant-fullcalendar td {
+.antd-v3-fullcalendar td {
   position: relative;
 }
-.ant-fullcalendar-calendar-table {
+.antd-v3-fullcalendar-calendar-table {
   margin-bottom: 0;
   border-spacing: 0;
 }
-.ant-fullcalendar-column-header {
+.antd-v3-fullcalendar-column-header {
   width: 33px;
   padding: 0;
   line-height: 18px;
   text-align: center;
 }
-.ant-fullcalendar-column-header .ant-fullcalendar-column-header-inner {
+.antd-v3-fullcalendar-column-header .antd-v3-fullcalendar-column-header-inner {
   display: block;
   font-weight: normal;
 }
-.ant-fullcalendar-week-number-header .ant-fullcalendar-column-header-inner {
+.antd-v3-fullcalendar-week-number-header .antd-v3-fullcalendar-column-header-inner {
   display: none;
 }
-.ant-fullcalendar-month,
-.ant-fullcalendar-date {
+.antd-v3-fullcalendar-month,
+.antd-v3-fullcalendar-date {
   text-align: center;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.ant-fullcalendar-value {
+.antd-v3-fullcalendar-value {
   display: block;
   width: 24px;
   height: 24px;
@@ -104,65 +104,65 @@
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.ant-fullcalendar-value:hover {
+.antd-v3-fullcalendar-value:hover {
   background: #e6f7ff;
   cursor: pointer;
 }
-.ant-fullcalendar-value:active {
+.antd-v3-fullcalendar-value:active {
   color: #fff;
   background: #1890ff;
 }
-.ant-fullcalendar-month-panel-cell .ant-fullcalendar-value {
+.antd-v3-fullcalendar-month-panel-cell .antd-v3-fullcalendar-value {
   width: 48px;
 }
-.ant-fullcalendar-today .ant-fullcalendar-value,
-.ant-fullcalendar-month-panel-current-cell .ant-fullcalendar-value {
+.antd-v3-fullcalendar-today .antd-v3-fullcalendar-value,
+.antd-v3-fullcalendar-month-panel-current-cell .antd-v3-fullcalendar-value {
   -webkit-box-shadow: 0 0 0 1px #1890ff inset;
           box-shadow: 0 0 0 1px #1890ff inset;
 }
-.ant-fullcalendar-selected-day .ant-fullcalendar-value,
-.ant-fullcalendar-month-panel-selected-cell .ant-fullcalendar-value {
+.antd-v3-fullcalendar-selected-day .antd-v3-fullcalendar-value,
+.antd-v3-fullcalendar-month-panel-selected-cell .antd-v3-fullcalendar-value {
   color: #fff;
   background: #1890ff;
 }
-.ant-fullcalendar-disabled-cell-first-of-row .ant-fullcalendar-value {
+.antd-v3-fullcalendar-disabled-cell-first-of-row .antd-v3-fullcalendar-value {
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-.ant-fullcalendar-disabled-cell-last-of-row .ant-fullcalendar-value {
+.antd-v3-fullcalendar-disabled-cell-last-of-row .antd-v3-fullcalendar-value {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-.ant-fullcalendar-last-month-cell .ant-fullcalendar-value,
-.ant-fullcalendar-next-month-btn-day .ant-fullcalendar-value {
+.antd-v3-fullcalendar-last-month-cell .antd-v3-fullcalendar-value,
+.antd-v3-fullcalendar-next-month-btn-day .antd-v3-fullcalendar-value {
   color: rgba(0, 0, 0, 0.25);
 }
-.ant-fullcalendar-month-panel-table {
+.antd-v3-fullcalendar-month-panel-table {
   width: 100%;
   table-layout: fixed;
   border-collapse: separate;
 }
-.ant-fullcalendar-content {
+.antd-v3-fullcalendar-content {
   position: absolute;
   bottom: -9px;
   left: 0;
   width: 100%;
 }
-.ant-fullcalendar-fullscreen {
+.antd-v3-fullcalendar-fullscreen {
   border-top: 0;
 }
-.ant-fullcalendar-fullscreen .ant-fullcalendar-table {
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-table {
   table-layout: fixed;
 }
-.ant-fullcalendar-fullscreen .ant-fullcalendar-header .ant-radio-group {
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-header .antd-v3-radio-group {
   margin-left: 16px;
 }
-.ant-fullcalendar-fullscreen .ant-fullcalendar-header label.ant-radio-button {
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-header label.antd-v3-radio-button {
   height: 32px;
   line-height: 30px;
 }
-.ant-fullcalendar-fullscreen .ant-fullcalendar-month,
-.ant-fullcalendar-fullscreen .ant-fullcalendar-date {
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-month,
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-date {
   display: block;
   height: 116px;
   margin: 0 4px;
@@ -173,65 +173,65 @@
   -webkit-transition: background 0.3s;
   transition: background 0.3s;
 }
-.ant-fullcalendar-fullscreen .ant-fullcalendar-month:hover,
-.ant-fullcalendar-fullscreen .ant-fullcalendar-date:hover {
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-month:hover,
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-date:hover {
   background: #e6f7ff;
   cursor: pointer;
 }
-.ant-fullcalendar-fullscreen .ant-fullcalendar-month:active,
-.ant-fullcalendar-fullscreen .ant-fullcalendar-date:active {
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-month:active,
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-date:active {
   background: #bae7ff;
 }
-.ant-fullcalendar-fullscreen .ant-fullcalendar-column-header {
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-column-header {
   padding-right: 12px;
   padding-bottom: 5px;
   text-align: right;
 }
-.ant-fullcalendar-fullscreen .ant-fullcalendar-value {
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-value {
   width: auto;
   text-align: right;
   background: transparent;
 }
-.ant-fullcalendar-fullscreen .ant-fullcalendar-today .ant-fullcalendar-value {
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-today .antd-v3-fullcalendar-value {
   color: rgba(0, 0, 0, 0.65);
 }
-.ant-fullcalendar-fullscreen .ant-fullcalendar-month-panel-current-cell .ant-fullcalendar-month,
-.ant-fullcalendar-fullscreen .ant-fullcalendar-today .ant-fullcalendar-date {
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-month-panel-current-cell .antd-v3-fullcalendar-month,
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-today .antd-v3-fullcalendar-date {
   background: transparent;
   border-top-color: #1890ff;
 }
-.ant-fullcalendar-fullscreen .ant-fullcalendar-month-panel-current-cell .ant-fullcalendar-value,
-.ant-fullcalendar-fullscreen .ant-fullcalendar-today .ant-fullcalendar-value {
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-month-panel-current-cell .antd-v3-fullcalendar-value,
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-today .antd-v3-fullcalendar-value {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-.ant-fullcalendar-fullscreen .ant-fullcalendar-month-panel-selected-cell .ant-fullcalendar-month,
-.ant-fullcalendar-fullscreen .ant-fullcalendar-selected-day .ant-fullcalendar-date {
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-month-panel-selected-cell .antd-v3-fullcalendar-month,
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-selected-day .antd-v3-fullcalendar-date {
   background: #e6f7ff;
 }
-.ant-fullcalendar-fullscreen .ant-fullcalendar-month-panel-selected-cell .ant-fullcalendar-value,
-.ant-fullcalendar-fullscreen .ant-fullcalendar-selected-day .ant-fullcalendar-value {
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-month-panel-selected-cell .antd-v3-fullcalendar-value,
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-selected-day .antd-v3-fullcalendar-value {
   color: #1890ff;
 }
-.ant-fullcalendar-fullscreen .ant-fullcalendar-last-month-cell .ant-fullcalendar-date,
-.ant-fullcalendar-fullscreen .ant-fullcalendar-next-month-btn-day .ant-fullcalendar-date {
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-last-month-cell .antd-v3-fullcalendar-date,
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-next-month-btn-day .antd-v3-fullcalendar-date {
   color: rgba(0, 0, 0, 0.25);
 }
-.ant-fullcalendar-fullscreen .ant-fullcalendar-content {
+.antd-v3-fullcalendar-fullscreen .antd-v3-fullcalendar-content {
   position: static;
   width: auto;
   height: 88px;
   overflow-y: auto;
 }
-.ant-fullcalendar-disabled-cell .ant-fullcalendar-date,
-.ant-fullcalendar-disabled-cell .ant-fullcalendar-date:hover {
+.antd-v3-fullcalendar-disabled-cell .antd-v3-fullcalendar-date,
+.antd-v3-fullcalendar-disabled-cell .antd-v3-fullcalendar-date:hover {
   cursor: not-allowed;
 }
-.ant-fullcalendar-disabled-cell:not(.ant-fullcalendar-today) .ant-fullcalendar-date,
-.ant-fullcalendar-disabled-cell:not(.ant-fullcalendar-today) .ant-fullcalendar-date:hover {
+.antd-v3-fullcalendar-disabled-cell:not(.antd-v3-fullcalendar-today) .antd-v3-fullcalendar-date,
+.antd-v3-fullcalendar-disabled-cell:not(.antd-v3-fullcalendar-today) .antd-v3-fullcalendar-date:hover {
   background: transparent;
 }
-.ant-fullcalendar-disabled-cell .ant-fullcalendar-value {
+.antd-v3-fullcalendar-disabled-cell .antd-v3-fullcalendar-value {
   width: auto;
   color: rgba(0, 0, 0, 0.25);
   border-radius: 0;

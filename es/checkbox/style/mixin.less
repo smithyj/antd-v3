@@ -1,6 +1,6 @@
 @import '../../style/mixins/index';
 
-.antCheckboxFn(@checkbox-prefix-cls: ~'@{ant-prefix}-checkbox') {
+.antCheckboxFn(@checkbox-prefix-cls: ~'@{antd-v3-prefix}-checkbox') {
   @checkbox-inner-prefix-cls: ~'@{checkbox-prefix-cls}-inner';
   // 一般状态
   .@{checkbox-prefix-cls} {
@@ -51,7 +51,7 @@
       border: @checkbox-border-width @border-style-base @border-color-base;
       border-radius: @border-radius-sm;
       // Fix IE checked style
-      // https://github.com/ant-design/ant-design/issues/12597
+      // https://github.com/antd-v3-design/antd-v3-design/issues/12597
       border-collapse: separate;
       transition: all 0.3s;
 

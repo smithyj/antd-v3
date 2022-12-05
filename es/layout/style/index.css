@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-layout {
+.antd-v3-layout {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,47 +17,47 @@
   min-height: 0;
   background: #f0f2f5;
 }
-.ant-layout,
-.ant-layout * {
+.antd-v3-layout,
+.antd-v3-layout * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-.ant-layout.ant-layout-has-sider {
+.antd-v3-layout.antd-v3-layout-has-sider {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
 }
-.ant-layout.ant-layout-has-sider > .ant-layout,
-.ant-layout.ant-layout-has-sider > .ant-layout-content {
+.antd-v3-layout.antd-v3-layout-has-sider > .antd-v3-layout,
+.antd-v3-layout.antd-v3-layout-has-sider > .antd-v3-layout-content {
   overflow-x: hidden;
 }
-.ant-layout-header,
-.ant-layout-footer {
+.antd-v3-layout-header,
+.antd-v3-layout-footer {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
 }
-.ant-layout-header {
+.antd-v3-layout-header {
   height: 64px;
   padding: 0 50px;
   line-height: 64px;
   background: #001529;
 }
-.ant-layout-footer {
+.antd-v3-layout-footer {
   padding: 24px 50px;
   color: rgba(0, 0, 0, 0.65);
   font-size: 14px;
   background: #f0f2f5;
 }
-.ant-layout-content {
+.antd-v3-layout-content {
   -webkit-box-flex: 1;
       -ms-flex: auto;
           flex: auto;
   /* fix firefox can't set height smaller than content on flex item */
   min-height: 0;
 }
-.ant-layout-sider {
+.antd-v3-layout-sider {
   position: relative;
   /* fix firefox can't set width smaller than content on flex item */
   min-width: 0;
@@ -65,20 +65,20 @@
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-.ant-layout-sider-children {
+.antd-v3-layout-sider-children {
   height: 100%;
   margin-top: -0.1px;
   padding-top: 0.1px;
 }
-.ant-layout-sider-has-trigger {
+.antd-v3-layout-sider-has-trigger {
   padding-bottom: 48px;
 }
-.ant-layout-sider-right {
+.antd-v3-layout-sider-right {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
 }
-.ant-layout-sider-trigger {
+.antd-v3-layout-sider-trigger {
   position: fixed;
   bottom: 0;
   z-index: 1;
@@ -91,10 +91,10 @@
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-.ant-layout-sider-zero-width > * {
+.antd-v3-layout-sider-zero-width > * {
   overflow: hidden;
 }
-.ant-layout-sider-zero-width-trigger {
+.antd-v3-layout-sider-zero-width-trigger {
   position: absolute;
   top: 64px;
   right: -36px;
@@ -111,21 +111,21 @@
   -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
 }
-.ant-layout-sider-zero-width-trigger:hover {
+.antd-v3-layout-sider-zero-width-trigger:hover {
   background: #192c3e;
 }
-.ant-layout-sider-zero-width-trigger-right {
+.antd-v3-layout-sider-zero-width-trigger-right {
   left: -36px;
   border-radius: 4px 0 0 4px;
 }
-.ant-layout-sider-light {
+.antd-v3-layout-sider-light {
   background: #fff;
 }
-.ant-layout-sider-light .ant-layout-sider-trigger {
+.antd-v3-layout-sider-light .antd-v3-layout-sider-trigger {
   color: rgba(0, 0, 0, 0.65);
   background: #fff;
 }
-.ant-layout-sider-light .ant-layout-sider-zero-width-trigger {
+.antd-v3-layout-sider-light .antd-v3-layout-sider-zero-width-trigger {
   color: rgba(0, 0, 0, 0.65);
   background: #fff;
 }

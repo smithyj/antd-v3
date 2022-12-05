@@ -181,7 +181,7 @@ var CheckboxGroup = /*#__PURE__*/function (_React$Component) {
           value: this.state.value,
           disabled: this.props.disabled,
           name: this.props.name,
-          // https://github.com/ant-design/ant-design/issues/16376
+          // https://github.com/antd-v3-design/antd-v3-design/issues/16376
           registerValue: this.registerValue,
           cancelValue: this.cancelValue
         }

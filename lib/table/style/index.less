@@ -1,7 +1,7 @@
 @import '../../style/themes/index';
 @import '../../style/mixins/index';
 
-@table-prefix-cls: ~'@{ant-prefix}-table';
+@table-prefix-cls: ~'@{antd-v3-prefix}-table';
 @table-header-icon-color: #bfbfbf;
 @table-header-sort-active-bg: darken(@table-header-bg, 3%);
 @table-header-filter-active-bg: darken(@table-header-sort-active-bg, 5%);
@@ -22,13 +22,13 @@
   }
 
   &-empty &-body {
-    // https://github.com/ant-design/ant-design/issues/11135
+    // https://github.com/antd-v3-design/antd-v3-design/issues/11135
     overflow-x: auto !important;
-    // https://github.com/ant-design/ant-design/issues/17175
+    // https://github.com/antd-v3-design/antd-v3-design/issues/17175
     overflow-y: hidden !important;
   }
 
-  // https://github.com/ant-design/ant-design/issues/17611
+  // https://github.com/antd-v3-design/antd-v3-design/issues/17611
   table {
     width: 100%;
     text-align: left;
@@ -123,12 +123,12 @@
 
     &.@{table-prefix-cls}-column-has-actions {
       position: relative;
-      background-clip: padding-box; // For Firefox background bug, https://github.com/ant-design/ant-design/issues/12628
+      background-clip: padding-box; // For Firefox background bug, https://github.com/antd-v3-design/antd-v3-design/issues/12628
       /* stylelint-disable-next-line */
-      -webkit-background-clip: border-box; // For Chrome extra space: https://github.com/ant-design/ant-design/issues/14926
+      -webkit-background-clip: border-box; // For Chrome extra space: https://github.com/antd-v3-design/antd-v3-design/issues/14926
 
       &.@{table-prefix-cls}-column-has-filters {
-        // https://github.com/ant-design/ant-design/issues/12650
+        // https://github.com/antd-v3-design/antd-v3-design/issues/12650
         padding-right: 30px !important;
 
         .@{iconfont-css-prefix}-filter,
@@ -305,13 +305,13 @@
     }
   }
 
-  // https://github.com/ant-design/ant-design/issues/4373
+  // https://github.com/antd-v3-design/antd-v3-design/issues/4373
   &-without-column-header &-title + &-content,
   &-without-column-header table {
     border-radius: 0;
   }
 
-  // https://github.com/ant-design/ant-design/issues/14834
+  // https://github.com/antd-v3-design/antd-v3-design/issues/14834
   &-without-column-header&-bordered&-empty &-placeholder {
     border-top: 1px solid @border-color-split;
     border-radius: @border-radius-base;
@@ -431,7 +431,7 @@
     border-radius: 0 0 @border-radius-base @border-radius-base;
   }
 
-  &-pagination.@{ant-prefix}-pagination {
+  &-pagination.@{antd-v3-prefix}-pagination {
     float: right;
     margin: 16px 0;
   }
@@ -444,9 +444,9 @@
     border-radius: @border-radius-base;
     box-shadow: @box-shadow-base;
 
-    .@{ant-prefix}-dropdown-menu {
-      // https://github.com/ant-design/ant-design/issues/4916
-      // https://github.com/ant-design/ant-design/issues/19542
+    .@{antd-v3-prefix}-dropdown-menu {
+      // https://github.com/antd-v3-design/antd-v3-design/issues/4916
+      // https://github.com/antd-v3-design/antd-v3-design/issues/19542
       max-height: ~'calc(100vh - 130px)';
       overflow-x: hidden;
       border: 0;
@@ -462,8 +462,8 @@
         box-shadow: @box-shadow-base;
       }
 
-      .@{ant-prefix}-dropdown-submenu-contain-selected {
-        .@{ant-prefix}-dropdown-menu-submenu-title::after {
+      .@{antd-v3-prefix}-dropdown-submenu-contain-selected {
+        .@{antd-v3-prefix}-dropdown-menu-submenu-title::after {
           color: @primary-color;
           font-weight: bold;
           text-shadow: 0 0 2px @primary-2;
@@ -471,14 +471,14 @@
       }
     }
 
-    .@{ant-prefix}-dropdown-menu-item {
+    .@{antd-v3-prefix}-dropdown-menu-item {
       overflow: hidden;
     }
 
-    > .@{ant-prefix}-dropdown-menu > .@{ant-prefix}-dropdown-menu-item:last-child,
-    > .@{ant-prefix}-dropdown-menu
-      > .@{ant-prefix}-dropdown-menu-submenu:last-child
-      .@{ant-prefix}-dropdown-menu-submenu-title {
+    > .@{antd-v3-prefix}-dropdown-menu > .@{antd-v3-prefix}-dropdown-menu-item:last-child,
+    > .@{antd-v3-prefix}-dropdown-menu
+      > .@{antd-v3-prefix}-dropdown-menu-submenu:last-child
+      .@{antd-v3-prefix}-dropdown-menu-submenu-title {
       border-radius: 0;
     }
 
@@ -525,7 +525,7 @@
       border-radius: @border-radius-base;
       box-shadow: @box-shadow-base;
 
-      .@{ant-prefix}-action-down {
+      .@{antd-v3-prefix}-action-down {
         color: @table-header-icon-color;
       }
     }
@@ -618,8 +618,8 @@
     table {
       min-width: 100%;
 
-      // https://github.com/ant-design/ant-design/issues/14545
-      // https://github.com/ant-design/ant-design/issues/19491
+      // https://github.com/antd-v3-design/antd-v3-design/issues/14545
+      // https://github.com/antd-v3-design/antd-v3-design/issues/19491
       .@{table-prefix-cls}-fixed-columns-in-body:not([colspan]) {
         color: transparent;
         & > * {
@@ -647,7 +647,7 @@
     padding-bottom: 20px;
     overflow: scroll;
     // Workaround for additional scroll bar on the table header
-    // https://github.com/ant-design/ant-design/issues/6515#issuecomment-419634369
+    // https://github.com/antd-v3-design/antd-v3-design/issues/6515#issuecomment-419634369
     opacity: 0.9999;
 
     &::-webkit-scrollbar {
@@ -657,7 +657,7 @@
   }
 
   &-hide-scrollbar {
-    // https://github.com/ant-design/ant-design/issues/4637
+    // https://github.com/antd-v3-design/antd-v3-design/issues/4637
     // https://stackoverflow.com/a/54101063
     // https://github.com/react-component/table/pull/333
     scrollbar-color: transparent transparent;
@@ -665,7 +665,7 @@
 
     &::-webkit-scrollbar {
       // set min width to window chrome scrollbar
-      // https://github.com/ant-design/ant-design/issues/19952#issuecomment-559367149
+      // https://github.com/antd-v3-design/antd-v3-design/issues/19952#issuecomment-559367149
       min-width: inherit;
       background-color: transparent;
     }
@@ -735,7 +735,7 @@
       border-radius: 0 @table-border-radius-base 0 0;
     }
     // hide expand row content in right-fixed Table
-    // https://github.com/ant-design/ant-design/issues/1898
+    // https://github.com/antd-v3-design/antd-v3-design/issues/1898
     .@{table-prefix-cls}-expanded-row {
       color: transparent;
       pointer-events: none;
@@ -770,7 +770,7 @@
   &-tbody > tr > td.@{table-prefix-cls}-selection-column {
     text-align: center;
 
-    .@{ant-prefix}-radio-wrapper {
+    .@{antd-v3-prefix}-radio-wrapper {
       margin-right: 0;
     }
   }
@@ -782,7 +782,7 @@
 
 .@{table-prefix-cls}-filter-dropdown,
 .@{table-prefix-cls}-filter-dropdown-submenu {
-  .@{ant-prefix}-checkbox-wrapper + span {
+  .@{antd-v3-prefix}-checkbox-wrapper + span {
     padding-left: 8px;
   }
 }
@@ -791,7 +791,7 @@
 * Another fix of Firefox:
 */
 @supports (-moz-appearance: meterbar) {
-  // https://github.com/ant-design/ant-design/issues/12628
+  // https://github.com/antd-v3-design/antd-v3-design/issues/12628
   .@{table-prefix-cls}-thead > tr > th.@{table-prefix-cls}-column-has-actions {
     background-clip: padding-box;
   }

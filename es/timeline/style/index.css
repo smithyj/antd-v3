@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-timeline {
+.antd-v3-timeline {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: rgba(0, 0, 0, 0.65);
@@ -15,28 +15,28 @@
   padding: 0;
   list-style: none;
 }
-.ant-timeline-item {
+.antd-v3-timeline-item {
   position: relative;
   margin: 0;
   padding: 0 0 20px;
   font-size: 14px;
   list-style: none;
 }
-.ant-timeline-item-tail {
+.antd-v3-timeline-item-tail {
   position: absolute;
   top: 10px;
   left: 4px;
   height: calc(100% - 10px);
   border-left: 2px solid #e8e8e8;
 }
-.ant-timeline-item-pending .ant-timeline-item-head {
+.antd-v3-timeline-item-pending .antd-v3-timeline-item-head {
   font-size: 12px;
   background-color: transparent;
 }
-.ant-timeline-item-pending .ant-timeline-item-tail {
+.antd-v3-timeline-item-pending .antd-v3-timeline-item-tail {
   display: none;
 }
-.ant-timeline-item-head {
+.antd-v3-timeline-item-head {
   position: absolute;
   width: 10px;
   height: 10px;
@@ -44,23 +44,23 @@
   border: 2px solid transparent;
   border-radius: 100px;
 }
-.ant-timeline-item-head-blue {
+.antd-v3-timeline-item-head-blue {
   color: #1890ff;
   border-color: #1890ff;
 }
-.ant-timeline-item-head-red {
+.antd-v3-timeline-item-head-red {
   color: #f5222d;
   border-color: #f5222d;
 }
-.ant-timeline-item-head-green {
+.antd-v3-timeline-item-head-green {
   color: #52c41a;
   border-color: #52c41a;
 }
-.ant-timeline-item-head-gray {
+.antd-v3-timeline-item-head-gray {
   color: rgba(0, 0, 0, 0.25);
   border-color: rgba(0, 0, 0, 0.25);
 }
-.ant-timeline-item-head-custom {
+.antd-v3-timeline-item-head-custom {
   position: absolute;
   top: 5.5px;
   left: 5px;
@@ -76,68 +76,68 @@
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
-.ant-timeline-item-content {
+.antd-v3-timeline-item-content {
   position: relative;
   top: -6px;
   margin: 0 0 0 18px;
   word-break: break-word;
 }
-.ant-timeline-item-last > .ant-timeline-item-tail {
+.antd-v3-timeline-item-last > .antd-v3-timeline-item-tail {
   display: none;
 }
-.ant-timeline-item-last > .ant-timeline-item-content {
+.antd-v3-timeline-item-last > .antd-v3-timeline-item-content {
   min-height: 48px;
 }
-.ant-timeline.ant-timeline-alternate .ant-timeline-item-tail,
-.ant-timeline.ant-timeline-right .ant-timeline-item-tail,
-.ant-timeline.ant-timeline-alternate .ant-timeline-item-head,
-.ant-timeline.ant-timeline-right .ant-timeline-item-head,
-.ant-timeline.ant-timeline-alternate .ant-timeline-item-head-custom,
-.ant-timeline.ant-timeline-right .ant-timeline-item-head-custom {
+.antd-v3-timeline.antd-v3-timeline-alternate .antd-v3-timeline-item-tail,
+.antd-v3-timeline.antd-v3-timeline-right .antd-v3-timeline-item-tail,
+.antd-v3-timeline.antd-v3-timeline-alternate .antd-v3-timeline-item-head,
+.antd-v3-timeline.antd-v3-timeline-right .antd-v3-timeline-item-head,
+.antd-v3-timeline.antd-v3-timeline-alternate .antd-v3-timeline-item-head-custom,
+.antd-v3-timeline.antd-v3-timeline-right .antd-v3-timeline-item-head-custom {
   left: 50%;
 }
-.ant-timeline.ant-timeline-alternate .ant-timeline-item-head,
-.ant-timeline.ant-timeline-right .ant-timeline-item-head {
+.antd-v3-timeline.antd-v3-timeline-alternate .antd-v3-timeline-item-head,
+.antd-v3-timeline.antd-v3-timeline-right .antd-v3-timeline-item-head {
   margin-left: -4px;
 }
-.ant-timeline.ant-timeline-alternate .ant-timeline-item-head-custom,
-.ant-timeline.ant-timeline-right .ant-timeline-item-head-custom {
+.antd-v3-timeline.antd-v3-timeline-alternate .antd-v3-timeline-item-head-custom,
+.antd-v3-timeline.antd-v3-timeline-right .antd-v3-timeline-item-head-custom {
   margin-left: 1px;
 }
-.ant-timeline.ant-timeline-alternate .ant-timeline-item-left .ant-timeline-item-content,
-.ant-timeline.ant-timeline-right .ant-timeline-item-left .ant-timeline-item-content {
+.antd-v3-timeline.antd-v3-timeline-alternate .antd-v3-timeline-item-left .antd-v3-timeline-item-content,
+.antd-v3-timeline.antd-v3-timeline-right .antd-v3-timeline-item-left .antd-v3-timeline-item-content {
   left: calc(50% - 4px);
   width: calc(50% - 14px);
   text-align: left;
 }
-.ant-timeline.ant-timeline-alternate .ant-timeline-item-right .ant-timeline-item-content,
-.ant-timeline.ant-timeline-right .ant-timeline-item-right .ant-timeline-item-content {
+.antd-v3-timeline.antd-v3-timeline-alternate .antd-v3-timeline-item-right .antd-v3-timeline-item-content,
+.antd-v3-timeline.antd-v3-timeline-right .antd-v3-timeline-item-right .antd-v3-timeline-item-content {
   width: calc(50% - 12px);
   margin: 0;
   text-align: right;
 }
-.ant-timeline.ant-timeline-right .ant-timeline-item-right .ant-timeline-item-tail,
-.ant-timeline.ant-timeline-right .ant-timeline-item-right .ant-timeline-item-head,
-.ant-timeline.ant-timeline-right .ant-timeline-item-right .ant-timeline-item-head-custom {
+.antd-v3-timeline.antd-v3-timeline-right .antd-v3-timeline-item-right .antd-v3-timeline-item-tail,
+.antd-v3-timeline.antd-v3-timeline-right .antd-v3-timeline-item-right .antd-v3-timeline-item-head,
+.antd-v3-timeline.antd-v3-timeline-right .antd-v3-timeline-item-right .antd-v3-timeline-item-head-custom {
   left: calc(100% - 4px - 2px);
 }
-.ant-timeline.ant-timeline-right .ant-timeline-item-right .ant-timeline-item-content {
+.antd-v3-timeline.antd-v3-timeline-right .antd-v3-timeline-item-right .antd-v3-timeline-item-content {
   width: calc(100% - 18px);
 }
-.ant-timeline.ant-timeline-pending .ant-timeline-item-last .ant-timeline-item-tail {
+.antd-v3-timeline.antd-v3-timeline-pending .antd-v3-timeline-item-last .antd-v3-timeline-item-tail {
   display: block;
   height: calc(100% - 14px);
   border-left: 2px dotted #e8e8e8;
 }
-.ant-timeline.ant-timeline-reverse .ant-timeline-item-last .ant-timeline-item-tail {
+.antd-v3-timeline.antd-v3-timeline-reverse .antd-v3-timeline-item-last .antd-v3-timeline-item-tail {
   display: none;
 }
-.ant-timeline.ant-timeline-reverse .ant-timeline-item-pending .ant-timeline-item-tail {
+.antd-v3-timeline.antd-v3-timeline-reverse .antd-v3-timeline-item-pending .antd-v3-timeline-item-tail {
   top: 15px;
   display: block;
   height: calc(100% - 15px);
   border-left: 2px dotted #e8e8e8;
 }
-.ant-timeline.ant-timeline-reverse .ant-timeline-item-pending .ant-timeline-item-content {
+.antd-v3-timeline.antd-v3-timeline-reverse .antd-v3-timeline-item-pending .antd-v3-timeline-item-content {
   min-height: 48px;
 }

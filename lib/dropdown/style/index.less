@@ -1,7 +1,7 @@
 @import '../../style/themes/index';
 @import '../../style/mixins/index';
 
-@dropdown-prefix-cls: ~'@{ant-prefix}-dropdown';
+@dropdown-prefix-cls: ~'@{antd-v3-prefix}-dropdown';
 
 .@{dropdown-prefix-cls} {
   .reset-component;
@@ -26,7 +26,7 @@
   &-wrap {
     position: relative;
 
-    .@{ant-prefix}-btn > .@{iconfont-css-prefix}-down {
+    .@{antd-v3-prefix}-btn > .@{iconfont-css-prefix}-down {
       .iconfont-size-under-12px(10px);
     }
 
@@ -197,7 +197,7 @@
       }
     }
 
-    // https://github.com/ant-design/ant-design/issues/19264
+    // https://github.com/antd-v3-design/antd-v3-design/issues/19264
     &-submenu-selected &-submenu-title {
       color: @primary-color;
     }
@@ -244,7 +244,7 @@
 .@{dropdown-prefix-cls}-button {
   white-space: nowrap;
 
-  &.@{ant-prefix}-btn-group > .@{ant-prefix}-btn:last-child:not(:first-child) {
+  &.@{antd-v3-prefix}-btn-group > .@{antd-v3-prefix}-btn:last-child:not(:first-child) {
     padding-right: @padding-xs;
     padding-left: @padding-xs;
   }
@@ -253,7 +253,7 @@
   }
 }
 
-// https://github.com/ant-design/ant-design/issues/4903
+// https://github.com/antd-v3-design/antd-v3-design/issues/4903
 .@{dropdown-prefix-cls}-menu-dark {
   &,
   .@{dropdown-prefix-cls}-menu {

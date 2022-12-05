@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-notification {
+.antd-v3-notification {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -20,23 +20,23 @@
   max-width: calc(100vw - 32px);
   margin-right: 24px;
 }
-.ant-notification-topLeft,
-.ant-notification-bottomLeft {
+.antd-v3-notification-topLeft,
+.antd-v3-notification-bottomLeft {
   margin-right: 0;
   margin-left: 24px;
 }
-.ant-notification-topLeft .ant-notification-fade-enter.ant-notification-fade-enter-active,
-.ant-notification-bottomLeft .ant-notification-fade-enter.ant-notification-fade-enter-active,
-.ant-notification-topLeft .ant-notification-fade-appear.ant-notification-fade-appear-active,
-.ant-notification-bottomLeft .ant-notification-fade-appear.ant-notification-fade-appear-active {
+.antd-v3-notification-topLeft .antd-v3-notification-fade-enter.antd-v3-notification-fade-enter-active,
+.antd-v3-notification-bottomLeft .antd-v3-notification-fade-enter.antd-v3-notification-fade-enter-active,
+.antd-v3-notification-topLeft .antd-v3-notification-fade-appear.antd-v3-notification-fade-appear-active,
+.antd-v3-notification-bottomLeft .antd-v3-notification-fade-appear.antd-v3-notification-fade-appear-active {
   -webkit-animation-name: NotificationLeftFadeIn;
           animation-name: NotificationLeftFadeIn;
 }
-.ant-notification-close-icon {
+.antd-v3-notification-close-icon {
   font-size: 14px;
   cursor: pointer;
 }
-.ant-notification-notice {
+.antd-v3-notification-notice {
   position: relative;
   margin-bottom: 16px;
   padding: 16px 24px;
@@ -47,72 +47,72 @@
   -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
-.ant-notification-notice-message {
+.antd-v3-notification-notice-message {
   display: inline-block;
   margin-bottom: 8px;
   color: rgba(0, 0, 0, 0.85);
   font-size: 16px;
   line-height: 24px;
 }
-.ant-notification-notice-message-single-line-auto-margin {
+.antd-v3-notification-notice-message-single-line-auto-margin {
   display: block;
   width: calc(384px - 24px * 2 - 24px - 48px - 100%);
   max-width: 4px;
   background-color: transparent;
   pointer-events: none;
 }
-.ant-notification-notice-message-single-line-auto-margin::before {
+.antd-v3-notification-notice-message-single-line-auto-margin::before {
   display: block;
   content: '';
 }
-.ant-notification-notice-description {
+.antd-v3-notification-notice-description {
   font-size: 14px;
 }
-.ant-notification-notice-closable .ant-notification-notice-message {
+.antd-v3-notification-notice-closable .antd-v3-notification-notice-message {
   padding-right: 24px;
 }
-.ant-notification-notice-with-icon .ant-notification-notice-message {
+.antd-v3-notification-notice-with-icon .antd-v3-notification-notice-message {
   margin-bottom: 4px;
   margin-left: 48px;
   font-size: 16px;
 }
-.ant-notification-notice-with-icon .ant-notification-notice-description {
+.antd-v3-notification-notice-with-icon .antd-v3-notification-notice-description {
   margin-left: 48px;
   font-size: 14px;
 }
-.ant-notification-notice-icon {
+.antd-v3-notification-notice-icon {
   position: absolute;
   margin-left: 4px;
   font-size: 24px;
   line-height: 24px;
 }
-.anticon.ant-notification-notice-icon-success {
+.anticon.antd-v3-notification-notice-icon-success {
   color: #52c41a;
 }
-.anticon.ant-notification-notice-icon-info {
+.anticon.antd-v3-notification-notice-icon-info {
   color: #1890ff;
 }
-.anticon.ant-notification-notice-icon-warning {
+.anticon.antd-v3-notification-notice-icon-warning {
   color: #faad14;
 }
-.anticon.ant-notification-notice-icon-error {
+.anticon.antd-v3-notification-notice-icon-error {
   color: #f5222d;
 }
-.ant-notification-notice-close {
+.antd-v3-notification-notice-close {
   position: absolute;
   top: 16px;
   right: 22px;
   color: rgba(0, 0, 0, 0.45);
   outline: none;
 }
-.ant-notification-notice-close:hover {
+.antd-v3-notification-notice-close:hover {
   color: rgba(0, 0, 0, 0.67);
 }
-.ant-notification-notice-btn {
+.antd-v3-notification-notice-btn {
   float: right;
   margin-top: 16px;
 }
-.ant-notification .notification-fade-effect {
+.antd-v3-notification .notification-fade-effect {
   -webkit-animation-duration: 0.24s;
           animation-duration: 0.24s;
   -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -120,8 +120,8 @@
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
-.ant-notification-fade-enter,
-.ant-notification-fade-appear {
+.antd-v3-notification-fade-enter,
+.antd-v3-notification-fade-appear {
   opacity: 0;
   -webkit-animation-duration: 0.24s;
           animation-duration: 0.24s;
@@ -132,7 +132,7 @@
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
 }
-.ant-notification-fade-leave {
+.antd-v3-notification-fade-leave {
   -webkit-animation-duration: 0.24s;
           animation-duration: 0.24s;
   -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -144,14 +144,14 @@
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
 }
-.ant-notification-fade-enter.ant-notification-fade-enter-active,
-.ant-notification-fade-appear.ant-notification-fade-appear-active {
+.antd-v3-notification-fade-enter.antd-v3-notification-fade-enter-active,
+.antd-v3-notification-fade-appear.antd-v3-notification-fade-appear-active {
   -webkit-animation-name: NotificationFadeIn;
           animation-name: NotificationFadeIn;
   -webkit-animation-play-state: running;
           animation-play-state: running;
 }
-.ant-notification-fade-leave.ant-notification-fade-leave-active {
+.antd-v3-notification-fade-leave.antd-v3-notification-fade-leave-active {
   -webkit-animation-name: NotificationFadeOut;
           animation-name: NotificationFadeOut;
   -webkit-animation-play-state: running;

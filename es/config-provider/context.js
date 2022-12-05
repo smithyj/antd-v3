@@ -7,7 +7,7 @@ export var ConfigContext = createReactContext({
   // We provide a default function for Context without provider
   getPrefixCls: function getPrefixCls(suffixCls, customizePrefixCls) {
     if (customizePrefixCls) return customizePrefixCls;
-    return "ant-".concat(suffixCls);
+    return "antd-v3-".concat(suffixCls);
   },
   renderEmpty: defaultRenderEmpty
 });

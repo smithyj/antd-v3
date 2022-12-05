@@ -8,7 +8,7 @@ import raf from 'raf';
 function animate(node, show, done) {
   var height;
   var requestAnimationFrameId;
-  return cssAnimation(node, 'ant-motion-collapse-legacy', {
+  return cssAnimation(node, 'antd-v3-motion-collapse-legacy', {
     start: function start() {
       if (!show) {
         node.style.height = "".concat(node.offsetHeight, "px");

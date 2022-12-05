@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-switch {
+.antd-v3-switch {
   margin: 0;
   padding: 0;
   color: rgba(0, 0, 0, 0.65);
@@ -31,15 +31,15 @@
       -ms-user-select: none;
           user-select: none;
 }
-.ant-switch-inner {
+.antd-v3-switch-inner {
   display: block;
   margin-right: 6px;
   margin-left: 24px;
   color: #fff;
   font-size: 12px;
 }
-.ant-switch-loading-icon,
-.ant-switch::after {
+.antd-v3-switch-loading-icon,
+.antd-v3-switch::after {
   position: absolute;
   top: 1px;
   left: 1px;
@@ -52,21 +52,21 @@
   transition: all 0.36s cubic-bezier(0.78, 0.14, 0.15, 0.86);
   content: ' ';
 }
-.ant-switch::after {
+.antd-v3-switch::after {
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 35, 11, 0.2);
           box-shadow: 0 2px 4px 0 rgba(0, 35, 11, 0.2);
 }
-.ant-switch:not(.ant-switch-disabled):active::before,
-.ant-switch:not(.ant-switch-disabled):active::after {
+.antd-v3-switch:not(.antd-v3-switch-disabled):active::before,
+.antd-v3-switch:not(.antd-v3-switch-disabled):active::after {
   width: 24px;
 }
-.ant-switch-loading-icon {
+.antd-v3-switch-loading-icon {
   z-index: 1;
   display: none;
   font-size: 12px;
   background: transparent;
 }
-.ant-switch-loading-icon svg {
+.antd-v3-switch-loading-icon svg {
   position: absolute;
   top: 0;
   right: 0;
@@ -74,89 +74,89 @@
   left: 0;
   margin: auto;
 }
-.ant-switch-loading .ant-switch-loading-icon {
+.antd-v3-switch-loading .antd-v3-switch-loading-icon {
   display: inline-block;
   color: rgba(0, 0, 0, 0.65);
 }
-.ant-switch-checked.ant-switch-loading .ant-switch-loading-icon {
+.antd-v3-switch-checked.antd-v3-switch-loading .antd-v3-switch-loading-icon {
   color: #1890ff;
 }
-.ant-switch:focus {
+.antd-v3-switch:focus {
   outline: 0;
   -webkit-box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
           box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
 }
-.ant-switch:focus:hover {
+.antd-v3-switch:focus:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-.ant-switch-small {
+.antd-v3-switch-small {
   min-width: 28px;
   height: 16px;
   line-height: 14px;
 }
-.ant-switch-small .ant-switch-inner {
+.antd-v3-switch-small .antd-v3-switch-inner {
   margin-right: 3px;
   margin-left: 18px;
   font-size: 12px;
 }
-.ant-switch-small::after {
+.antd-v3-switch-small::after {
   width: 12px;
   height: 12px;
 }
-.ant-switch-small:active::before,
-.ant-switch-small:active::after {
+.antd-v3-switch-small:active::before,
+.antd-v3-switch-small:active::after {
   width: 16px;
 }
-.ant-switch-small .ant-switch-loading-icon {
+.antd-v3-switch-small .antd-v3-switch-loading-icon {
   width: 12px;
   height: 12px;
 }
-.ant-switch-small.ant-switch-checked .ant-switch-inner {
+.antd-v3-switch-small.antd-v3-switch-checked .antd-v3-switch-inner {
   margin-right: 18px;
   margin-left: 3px;
 }
-.ant-switch-small.ant-switch-checked .ant-switch-loading-icon {
+.antd-v3-switch-small.antd-v3-switch-checked .antd-v3-switch-loading-icon {
   left: 100%;
   margin-left: -13px;
 }
-.ant-switch-small.ant-switch-loading .ant-switch-loading-icon {
+.antd-v3-switch-small.antd-v3-switch-loading .antd-v3-switch-loading-icon {
   font-weight: bold;
   -webkit-transform: scale(0.66667);
       -ms-transform: scale(0.66667);
           transform: scale(0.66667);
 }
-.ant-switch-checked {
+.antd-v3-switch-checked {
   background-color: #1890ff;
 }
-.ant-switch-checked .ant-switch-inner {
+.antd-v3-switch-checked .antd-v3-switch-inner {
   margin-right: 24px;
   margin-left: 6px;
 }
-.ant-switch-checked::after {
+.antd-v3-switch-checked::after {
   left: 100%;
   margin-left: -1px;
   -webkit-transform: translateX(-100%);
       -ms-transform: translateX(-100%);
           transform: translateX(-100%);
 }
-.ant-switch-checked .ant-switch-loading-icon {
+.antd-v3-switch-checked .antd-v3-switch-loading-icon {
   left: 100%;
   margin-left: -19px;
 }
-.ant-switch-loading,
-.ant-switch-disabled {
+.antd-v3-switch-loading,
+.antd-v3-switch-disabled {
   cursor: not-allowed;
   opacity: 0.4;
 }
-.ant-switch-loading *,
-.ant-switch-disabled * {
+.antd-v3-switch-loading *,
+.antd-v3-switch-disabled * {
   cursor: not-allowed;
 }
-.ant-switch-loading::before,
-.ant-switch-disabled::before,
-.ant-switch-loading::after,
-.ant-switch-disabled::after {
+.antd-v3-switch-loading::before,
+.antd-v3-switch-disabled::before,
+.antd-v3-switch-loading::after,
+.antd-v3-switch-disabled::after {
   cursor: not-allowed;
 }
 @-webkit-keyframes AntSwitchSmallLoadingCircle {

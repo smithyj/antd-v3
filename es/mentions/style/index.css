@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-mentions {
+.antd-v3-mentions {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -30,57 +30,57 @@
   white-space: pre-wrap;
   vertical-align: bottom;
 }
-.ant-mentions::-moz-placeholder {
+.antd-v3-mentions::-moz-placeholder {
   color: #bfbfbf;
   opacity: 1;
 }
-.ant-mentions:-ms-input-placeholder {
+.antd-v3-mentions:-ms-input-placeholder {
   color: #bfbfbf;
 }
-.ant-mentions::-webkit-input-placeholder {
+.antd-v3-mentions::-webkit-input-placeholder {
   color: #bfbfbf;
 }
-.ant-mentions:-moz-placeholder-shown {
+.antd-v3-mentions:-moz-placeholder-shown {
   text-overflow: ellipsis;
 }
-.ant-mentions:-ms-input-placeholder {
+.antd-v3-mentions:-ms-input-placeholder {
   text-overflow: ellipsis;
 }
-.ant-mentions:placeholder-shown {
+.antd-v3-mentions:placeholder-shown {
   text-overflow: ellipsis;
 }
-.ant-mentions:hover {
+.antd-v3-mentions:hover {
   border-color: #40a9ff;
   border-right-width: 1px !important;
 }
-.ant-mentions:focus {
+.antd-v3-mentions:focus {
   border-color: #40a9ff;
   border-right-width: 1px !important;
   outline: 0;
   -webkit-box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
           box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
 }
-.ant-mentions-disabled {
+.antd-v3-mentions-disabled {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
   cursor: not-allowed;
   opacity: 1;
 }
-.ant-mentions-disabled:hover {
+.antd-v3-mentions-disabled:hover {
   border-color: #d9d9d9;
   border-right-width: 1px !important;
 }
-.ant-mentions[disabled] {
+.antd-v3-mentions[disabled] {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
   cursor: not-allowed;
   opacity: 1;
 }
-.ant-mentions[disabled]:hover {
+.antd-v3-mentions[disabled]:hover {
   border-color: #d9d9d9;
   border-right-width: 1px !important;
 }
-textarea.ant-mentions {
+textarea.antd-v3-mentions {
   max-width: 100%;
   height: auto;
   min-height: 32px;
@@ -89,34 +89,34 @@ textarea.ant-mentions {
   -webkit-transition: all 0.3s, height 0s;
   transition: all 0.3s, height 0s;
 }
-.ant-mentions-lg {
+.antd-v3-mentions-lg {
   height: 40px;
   padding: 6px 11px;
   font-size: 16px;
 }
-.ant-mentions-sm {
+.antd-v3-mentions-sm {
   height: 24px;
   padding: 1px 7px;
 }
-.ant-mentions-disabled > textarea {
+.antd-v3-mentions-disabled > textarea {
   color: rgba(0, 0, 0, 0.25);
   background-color: #f5f5f5;
   cursor: not-allowed;
   opacity: 1;
 }
-.ant-mentions-disabled > textarea:hover {
+.antd-v3-mentions-disabled > textarea:hover {
   border-color: #d9d9d9;
   border-right-width: 1px !important;
 }
-.ant-mentions-focused {
+.antd-v3-mentions-focused {
   border-color: #40a9ff;
   border-right-width: 1px !important;
   outline: 0;
   -webkit-box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
           box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
 }
-.ant-mentions > textarea,
-.ant-mentions-measure {
+.antd-v3-mentions > textarea,
+.antd-v3-mentions-measure {
   min-height: 30px;
   margin: 0;
   padding: 4px 11px;
@@ -142,38 +142,38 @@ textarea.ant-mentions {
     -o-tab-size: inherit;
        tab-size: inherit;
 }
-.ant-mentions > textarea {
+.antd-v3-mentions > textarea {
   width: 100%;
   border: none;
   outline: none;
   resize: none;
 }
-.ant-mentions > textarea::-moz-placeholder {
+.antd-v3-mentions > textarea::-moz-placeholder {
   color: #bfbfbf;
   opacity: 1;
 }
-.ant-mentions > textarea:-ms-input-placeholder {
+.antd-v3-mentions > textarea:-ms-input-placeholder {
   color: #bfbfbf;
 }
-.ant-mentions > textarea::-webkit-input-placeholder {
+.antd-v3-mentions > textarea::-webkit-input-placeholder {
   color: #bfbfbf;
 }
-.ant-mentions > textarea:-moz-placeholder-shown {
+.antd-v3-mentions > textarea:-moz-placeholder-shown {
   text-overflow: ellipsis;
 }
-.ant-mentions > textarea:-ms-input-placeholder {
+.antd-v3-mentions > textarea:-ms-input-placeholder {
   text-overflow: ellipsis;
 }
-.ant-mentions > textarea:placeholder-shown {
+.antd-v3-mentions > textarea:placeholder-shown {
   text-overflow: ellipsis;
 }
-.ant-mentions > textarea:-moz-read-only {
+.antd-v3-mentions > textarea:-moz-read-only {
   cursor: default;
 }
-.ant-mentions > textarea:read-only {
+.antd-v3-mentions > textarea:read-only {
   cursor: default;
 }
-.ant-mentions-measure {
+.antd-v3-mentions-measure {
   position: absolute;
   top: 0;
   right: 0;
@@ -183,11 +183,11 @@ textarea.ant-mentions {
   color: transparent;
   pointer-events: none;
 }
-.ant-mentions-measure > span {
+.antd-v3-mentions-measure > span {
   display: inline-block;
   min-height: 1em;
 }
-.ant-mentions-dropdown {
+.antd-v3-mentions-dropdown {
   margin: 0;
   padding: 0;
   color: rgba(0, 0, 0, 0.65);
@@ -210,10 +210,10 @@ textarea.ant-mentions {
   -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
           box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
-.ant-mentions-dropdown-hidden {
+.antd-v3-mentions-dropdown-hidden {
   display: none;
 }
-.ant-mentions-dropdown-menu {
+.antd-v3-mentions-dropdown-menu {
   max-height: 250px;
   margin-bottom: 0;
   padding-left: 0;
@@ -221,7 +221,7 @@ textarea.ant-mentions {
   list-style: none;
   outline: none;
 }
-.ant-mentions-dropdown-menu-item {
+.antd-v3-mentions-dropdown-menu-item {
   position: relative;
   display: block;
   min-width: 100px;
@@ -236,29 +236,29 @@ textarea.ant-mentions {
   -webkit-transition: background 0.3s ease;
   transition: background 0.3s ease;
 }
-.ant-mentions-dropdown-menu-item:hover {
+.antd-v3-mentions-dropdown-menu-item:hover {
   background-color: #e6f7ff;
 }
-.ant-mentions-dropdown-menu-item:first-child {
+.antd-v3-mentions-dropdown-menu-item:first-child {
   border-radius: 4px 4px 0 0;
 }
-.ant-mentions-dropdown-menu-item:last-child {
+.antd-v3-mentions-dropdown-menu-item:last-child {
   border-radius: 0 0 4px 4px;
 }
-.ant-mentions-dropdown-menu-item-disabled {
+.antd-v3-mentions-dropdown-menu-item-disabled {
   color: rgba(0, 0, 0, 0.25);
   cursor: not-allowed;
 }
-.ant-mentions-dropdown-menu-item-disabled:hover {
+.antd-v3-mentions-dropdown-menu-item-disabled:hover {
   color: rgba(0, 0, 0, 0.25);
   background-color: #fff;
   cursor: not-allowed;
 }
-.ant-mentions-dropdown-menu-item-selected {
+.antd-v3-mentions-dropdown-menu-item-selected {
   color: rgba(0, 0, 0, 0.65);
   font-weight: 600;
   background-color: #fafafa;
 }
-.ant-mentions-dropdown-menu-item-active {
+.antd-v3-mentions-dropdown-menu-item-active {
   background-color: #e6f7ff;
 }

@@ -3,18 +3,18 @@
 @import './mixin';
 
 // Grid system
-.@{ant-prefix}-row {
+.@{antd-v3-prefix}-row {
   .make-row();
 
   display: block;
   box-sizing: border-box;
 }
 
-.@{ant-prefix}-row + .@{ant-prefix}-row::before {
+.@{antd-v3-prefix}-row + .@{antd-v3-prefix}-row::before {
   clear: both;
 }
 
-.@{ant-prefix}-row-flex {
+.@{antd-v3-prefix}-row-flex {
   display: flex;
   flex-flow: row wrap;
 
@@ -25,46 +25,46 @@
 }
 
 // x轴原点
-.@{ant-prefix}-row-flex-start {
+.@{antd-v3-prefix}-row-flex-start {
   justify-content: flex-start;
 }
 
 // x轴居中
-.@{ant-prefix}-row-flex-center {
+.@{antd-v3-prefix}-row-flex-center {
   justify-content: center;
 }
 
 // x轴反方向
-.@{ant-prefix}-row-flex-end {
+.@{antd-v3-prefix}-row-flex-end {
   justify-content: flex-end;
 }
 
 // x轴平分
-.@{ant-prefix}-row-flex-space-between {
+.@{antd-v3-prefix}-row-flex-space-between {
   justify-content: space-between;
 }
 
 // x轴有间隔地平分
-.@{ant-prefix}-row-flex-space-around {
+.@{antd-v3-prefix}-row-flex-space-around {
   justify-content: space-around;
 }
 
 // 顶部对齐
-.@{ant-prefix}-row-flex-top {
+.@{antd-v3-prefix}-row-flex-top {
   align-items: flex-start;
 }
 
 // 居中对齐
-.@{ant-prefix}-row-flex-middle {
+.@{antd-v3-prefix}-row-flex-middle {
   align-items: center;
 }
 
 // 底部对齐
-.@{ant-prefix}-row-flex-bottom {
+.@{antd-v3-prefix}-row-flex-bottom {
   align-items: flex-end;
 }
 
-.@{ant-prefix}-col {
+.@{antd-v3-prefix}-col {
   position: relative;
   // Prevent columns from collapsing when empty
   min-height: 1px;

@@ -49,7 +49,7 @@ var InternalMenu = /*#__PURE__*/function (_React$Component) {
     _classCallCheck(this, InternalMenu);
 
     _this = _super.call(this, props); // Restore vertical mode when menu is collapsed responsively when mounted
-    // https://github.com/ant-design/ant-design/issues/13104
+    // https://github.com/antd-v3-design/antd-v3-design/issues/13104
     // TODO: not a perfect solution, looking a new way to avoid setting switchingModeFromInline in this situation
 
     _this.handleMouseEnter = function (e) {
@@ -64,14 +64,14 @@ var InternalMenu = /*#__PURE__*/function (_React$Component) {
 
     _this.handleTransitionEnd = function (e) {
       // when inlineCollapsed menu width animation finished
-      // https://github.com/ant-design/ant-design/issues/12864
+      // https://github.com/antd-v3-design/antd-v3-design/issues/12864
       var widthCollapsed = e.propertyName === 'width' && e.target === e.currentTarget; // Fix SVGElement e.target.className.indexOf is not a function
-      // https://github.com/ant-design/ant-design/issues/15699
+      // https://github.com/antd-v3-design/antd-v3-design/issues/15699
 
       var className = e.target.className; // SVGAnimatedString.animVal should be identical to SVGAnimatedString.baseVal, unless during an animation.
 
       var classNameValue = Object.prototype.toString.call(className) === '[object SVGAnimatedString]' ? className.animVal : className; // Fix for <Menu style={{ width: '100%' }} />, the width transition won't trigger when menu is collapsed
-      // https://github.com/ant-design/ant-design-pro/issues/2783
+      // https://github.com/antd-v3-design/antd-v3-design-pro/issues/2783
 
       var iconScaled = e.propertyName === 'font-size' && classNameValue.indexOf('anticon') >= 0;
 
@@ -127,7 +127,7 @@ var InternalMenu = /*#__PURE__*/function (_React$Component) {
       if (menuMode !== 'inline') {
         // closing vertical popup submenu after click it
         menuProps.onClick = _this.handleClick;
-      } // https://github.com/ant-design/ant-design/issues/8587
+      } // https://github.com/antd-v3-design/antd-v3-design/issues/8587
 
 
       var hideMenu = _this.getInlineCollapsed() && (collapsedWidth === 0 || collapsedWidth === '0' || collapsedWidth === '0px');

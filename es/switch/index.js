@@ -106,7 +106,7 @@ export { Switch as default };
 Switch.__ANT_SWITCH = true;
 Switch.propTypes = {
   prefixCls: PropTypes.string,
-  // HACK: https://github.com/ant-design/ant-design/issues/5368
+  // HACK: https://github.com/antd-v3-design/antd-v3-design/issues/5368
   // size=default and size=large are the same
   size: PropTypes.oneOf(['small', 'default', 'large']),
   className: PropTypes.string

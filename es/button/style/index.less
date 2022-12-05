@@ -2,7 +2,7 @@
 @import '../../style/mixins/index';
 @import './mixin';
 
-@btn-prefix-cls: ~'@{ant-prefix}-btn';
+@btn-prefix-cls: ~'@{antd-v3-prefix}-btn';
 
 // for compatible
 @btn-ghost-color: @text-color;
@@ -12,12 +12,12 @@
 // Button styles
 // -----------------------------
 .@{btn-prefix-cls} {
-  // Fixing https://github.com/ant-design/ant-design/issues/12978
-  // Fixing https://github.com/ant-design/ant-design/issues/20058
-  // Fixing https://github.com/ant-design/ant-design/issues/19972
-  // Fixing https://github.com/ant-design/ant-design/issues/12978
-  // Fixing https://github.com/ant-design/ant-design/issues/18107
-  // Fixing https://github.com/ant-design/ant-design/issues/13214
+  // Fixing https://github.com/antd-v3-design/antd-v3-design/issues/12978
+  // Fixing https://github.com/antd-v3-design/antd-v3-design/issues/20058
+  // Fixing https://github.com/antd-v3-design/antd-v3-design/issues/19972
+  // Fixing https://github.com/antd-v3-design/antd-v3-design/issues/12978
+  // Fixing https://github.com/antd-v3-design/antd-v3-design/issues/18107
+  // Fixing https://github.com/antd-v3-design/antd-v3-design/issues/13214
   // It is a render problem of chrome, which is only happened in the codesandbox demo
   // 0.001px solution works and I don't why
   line-height: @line-height-base - 0.001;
@@ -25,7 +25,7 @@
   .btn-default;
 
   // Make sure that the target of Button's click event always be `button`
-  // Ref: https://github.com/ant-design/ant-design/issues/7034
+  // Ref: https://github.com/antd-v3-design/antd-v3-design/issues/7034
   > i,
   > span {
     display: inline-block;
@@ -119,7 +119,7 @@
     transition: margin-left 0.3s @ease-in-out;
 
     // Follow icon blur under windows. Change the render.
-    // https://github.com/ant-design/ant-design/issues/13924
+    // https://github.com/antd-v3-design/antd-v3-design/issues/13924
     &.@{iconfont-css-prefix}-plus,
     &.@{iconfont-css-prefix}-minus {
       > svg {
@@ -176,15 +176,15 @@
   }
 
   &-background-ghost&-primary {
-    .button-variant-ghost(@btn-primary-bg);
+    .button-variantd-v3-ghost(@btn-primary-bg);
   }
 
   &-background-ghost&-danger {
-    .button-variant-ghost(@btn-danger-border);
+    .button-variantd-v3-ghost(@btn-danger-border);
   }
 
   &-background-ghost&-link {
-    .button-variant-ghost(@link-color; transparent);
+    .button-variantd-v3-ghost(@link-color; transparent);
 
     color: @component-background;
   }
@@ -202,14 +202,14 @@
     width: 100%;
   }
 
-  // https://github.com/ant-design/ant-design/issues/12681
+  // https://github.com/antd-v3-design/antd-v3-design/issues/12681
   &:empty {
     vertical-align: top;
   }
 }
 
 a.@{btn-prefix-cls} {
-  // Fixing https://github.com/ant-design/ant-design/issues/12978
+  // Fixing https://github.com/antd-v3-design/antd-v3-design/issues/12978
   // It is a render problem of chrome, which is only happened in the codesandbox demo
   // 0.1px for padding-top solution works and I don't why
   padding-top: 0.1px;

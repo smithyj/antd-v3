@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-tag {
+.antd-v3-tag {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -29,20 +29,20 @@
   -webkit-transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
   transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
 }
-.ant-tag:hover {
+.antd-v3-tag:hover {
   opacity: 0.85;
 }
-.ant-tag,
-.ant-tag a,
-.ant-tag a:hover {
+.antd-v3-tag,
+.antd-v3-tag a,
+.antd-v3-tag a:hover {
   color: rgba(0, 0, 0, 0.65);
 }
-.ant-tag > a:first-child:last-child {
+.antd-v3-tag > a:first-child:last-child {
   display: inline-block;
   margin: 0 -8px;
   padding: 0 8px;
 }
-.ant-tag .anticon-close {
+.antd-v3-tag .anticon-close {
   display: inline-block;
   font-size: 12px;
   font-size: 10px \9;
@@ -56,168 +56,168 @@
   -webkit-transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
   transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
 }
-:root .ant-tag .anticon-close {
+:root .antd-v3-tag .anticon-close {
   font-size: 12px;
 }
-.ant-tag .anticon-close:hover {
+.antd-v3-tag .anticon-close:hover {
   color: rgba(0, 0, 0, 0.85);
 }
-.ant-tag-has-color {
+.antd-v3-tag-has-color {
   border-color: transparent;
 }
-.ant-tag-has-color,
-.ant-tag-has-color a,
-.ant-tag-has-color a:hover,
-.ant-tag-has-color .anticon-close,
-.ant-tag-has-color .anticon-close:hover {
+.antd-v3-tag-has-color,
+.antd-v3-tag-has-color a,
+.antd-v3-tag-has-color a:hover,
+.antd-v3-tag-has-color .anticon-close,
+.antd-v3-tag-has-color .anticon-close:hover {
   color: #fff;
 }
-.ant-tag-checkable {
+.antd-v3-tag-checkable {
   background-color: transparent;
   border-color: transparent;
 }
-.ant-tag-checkable:not(.ant-tag-checkable-checked):hover {
+.antd-v3-tag-checkable:not(.antd-v3-tag-checkable-checked):hover {
   color: #1890ff;
 }
-.ant-tag-checkable:active,
-.ant-tag-checkable-checked {
+.antd-v3-tag-checkable:active,
+.antd-v3-tag-checkable-checked {
   color: #fff;
 }
-.ant-tag-checkable-checked {
+.antd-v3-tag-checkable-checked {
   background-color: #1890ff;
 }
-.ant-tag-checkable:active {
+.antd-v3-tag-checkable:active {
   background-color: #096dd9;
 }
-.ant-tag-hidden {
+.antd-v3-tag-hidden {
   display: none;
 }
-.ant-tag-pink {
+.antd-v3-tag-pink {
   color: #eb2f96;
   background: #fff0f6;
   border-color: #ffadd2;
 }
-.ant-tag-pink-inverse {
+.antd-v3-tag-pink-inverse {
   color: #fff;
   background: #eb2f96;
   border-color: #eb2f96;
 }
-.ant-tag-magenta {
+.antd-v3-tag-magenta {
   color: #eb2f96;
   background: #fff0f6;
   border-color: #ffadd2;
 }
-.ant-tag-magenta-inverse {
+.antd-v3-tag-magenta-inverse {
   color: #fff;
   background: #eb2f96;
   border-color: #eb2f96;
 }
-.ant-tag-red {
+.antd-v3-tag-red {
   color: #f5222d;
   background: #fff1f0;
   border-color: #ffa39e;
 }
-.ant-tag-red-inverse {
+.antd-v3-tag-red-inverse {
   color: #fff;
   background: #f5222d;
   border-color: #f5222d;
 }
-.ant-tag-volcano {
+.antd-v3-tag-volcano {
   color: #fa541c;
   background: #fff2e8;
   border-color: #ffbb96;
 }
-.ant-tag-volcano-inverse {
+.antd-v3-tag-volcano-inverse {
   color: #fff;
   background: #fa541c;
   border-color: #fa541c;
 }
-.ant-tag-orange {
+.antd-v3-tag-orange {
   color: #fa8c16;
   background: #fff7e6;
   border-color: #ffd591;
 }
-.ant-tag-orange-inverse {
+.antd-v3-tag-orange-inverse {
   color: #fff;
   background: #fa8c16;
   border-color: #fa8c16;
 }
-.ant-tag-yellow {
+.antd-v3-tag-yellow {
   color: #fadb14;
   background: #feffe6;
   border-color: #fffb8f;
 }
-.ant-tag-yellow-inverse {
+.antd-v3-tag-yellow-inverse {
   color: #fff;
   background: #fadb14;
   border-color: #fadb14;
 }
-.ant-tag-gold {
+.antd-v3-tag-gold {
   color: #faad14;
   background: #fffbe6;
   border-color: #ffe58f;
 }
-.ant-tag-gold-inverse {
+.antd-v3-tag-gold-inverse {
   color: #fff;
   background: #faad14;
   border-color: #faad14;
 }
-.ant-tag-cyan {
+.antd-v3-tag-cyan {
   color: #13c2c2;
   background: #e6fffb;
   border-color: #87e8de;
 }
-.ant-tag-cyan-inverse {
+.antd-v3-tag-cyan-inverse {
   color: #fff;
   background: #13c2c2;
   border-color: #13c2c2;
 }
-.ant-tag-lime {
+.antd-v3-tag-lime {
   color: #a0d911;
   background: #fcffe6;
   border-color: #eaff8f;
 }
-.ant-tag-lime-inverse {
+.antd-v3-tag-lime-inverse {
   color: #fff;
   background: #a0d911;
   border-color: #a0d911;
 }
-.ant-tag-green {
+.antd-v3-tag-green {
   color: #52c41a;
   background: #f6ffed;
   border-color: #b7eb8f;
 }
-.ant-tag-green-inverse {
+.antd-v3-tag-green-inverse {
   color: #fff;
   background: #52c41a;
   border-color: #52c41a;
 }
-.ant-tag-blue {
+.antd-v3-tag-blue {
   color: #1890ff;
   background: #e6f7ff;
   border-color: #91d5ff;
 }
-.ant-tag-blue-inverse {
+.antd-v3-tag-blue-inverse {
   color: #fff;
   background: #1890ff;
   border-color: #1890ff;
 }
-.ant-tag-geekblue {
+.antd-v3-tag-geekblue {
   color: #2f54eb;
   background: #f0f5ff;
   border-color: #adc6ff;
 }
-.ant-tag-geekblue-inverse {
+.antd-v3-tag-geekblue-inverse {
   color: #fff;
   background: #2f54eb;
   border-color: #2f54eb;
 }
-.ant-tag-purple {
+.antd-v3-tag-purple {
   color: #722ed1;
   background: #f9f0ff;
   border-color: #d3adf7;
 }
-.ant-tag-purple-inverse {
+.antd-v3-tag-purple-inverse {
   color: #fff;
   background: #722ed1;
   border-color: #722ed1;

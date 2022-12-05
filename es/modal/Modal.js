@@ -48,7 +48,7 @@ import Button from '../button';
 import LocaleReceiver from '../locale-provider/LocaleReceiver';
 import { ConfigConsumer } from '../config-provider';
 var mousePosition;
-export var destroyFns = []; // ref: https://github.com/ant-design/ant-design/issues/15795
+export var destroyFns = []; // ref: https://github.com/antd-v3-design/antd-v3-design/issues/15795
 
 var getClickPosition = function getClickPosition(e) {
   mousePosition = {

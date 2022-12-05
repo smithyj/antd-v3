@@ -2,7 +2,7 @@
 /* stylelint-disable no-duplicate-selectors */
 /* stylelint-disable */
 /* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
-.ant-rate {
+.antd-v3-rate {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: rgba(0, 0, 0, 0.65);
@@ -20,15 +20,15 @@
   list-style: none;
   outline: none;
 }
-.ant-rate-disabled .ant-rate-star {
+.antd-v3-rate-disabled .antd-v3-rate-star {
   cursor: default;
 }
-.ant-rate-disabled .ant-rate-star:hover {
+.antd-v3-rate-disabled .antd-v3-rate-star:hover {
   -webkit-transform: scale(1);
       -ms-transform: scale(1);
           transform: scale(1);
 }
-.ant-rate-star {
+.antd-v3-rate-star {
   position: relative;
   display: inline-block;
   margin: 0;
@@ -38,20 +38,20 @@
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.ant-rate-star:not(:last-child) {
+.antd-v3-rate-star:not(:last-child) {
   margin-right: 8px;
 }
-.ant-rate-star > div:focus {
+.antd-v3-rate-star > div:focus {
   outline: 0;
 }
-.ant-rate-star > div:hover,
-.ant-rate-star > div:focus {
+.antd-v3-rate-star > div:hover,
+.antd-v3-rate-star > div:focus {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
 }
-.ant-rate-star-first,
-.ant-rate-star-second {
+.antd-v3-rate-star-first,
+.antd-v3-rate-star-second {
   color: #e8e8e8;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -60,11 +60,11 @@
       -ms-user-select: none;
           user-select: none;
 }
-.ant-rate-star-first .anticon,
-.ant-rate-star-second .anticon {
+.antd-v3-rate-star-first .anticon,
+.antd-v3-rate-star-second .anticon {
   vertical-align: middle;
 }
-.ant-rate-star-first {
+.antd-v3-rate-star-first {
   position: absolute;
   top: 0;
   left: 0;
@@ -73,15 +73,15 @@
   overflow: hidden;
   opacity: 0;
 }
-.ant-rate-star-half .ant-rate-star-first,
-.ant-rate-star-half .ant-rate-star-second {
+.antd-v3-rate-star-half .antd-v3-rate-star-first,
+.antd-v3-rate-star-half .antd-v3-rate-star-second {
   opacity: 1;
 }
-.ant-rate-star-half .ant-rate-star-first,
-.ant-rate-star-full .ant-rate-star-second {
+.antd-v3-rate-star-half .antd-v3-rate-star-first,
+.antd-v3-rate-star-full .antd-v3-rate-star-second {
   color: inherit;
 }
-.ant-rate-text {
+.antd-v3-rate-text {
   display: inline-block;
   margin-left: 8px;
   font-size: 14px;

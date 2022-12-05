@@ -14,6 +14,6 @@ var locale = {
   dateTimeFormat: 'DD-MM-YYYY HH:mm:ss',
   weekFormat: 'wo-YYYY'
 }; // All settings at:
-// https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json
+// https://github.com/antd-v3-design/antd-v3-design/blob/master/components/date-picker/locale/example.json
 
 export default locale;
